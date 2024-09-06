@@ -1,0 +1,13 @@
+{
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Fri, 06 Sep 2024 18:07:08 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "2024",
+    "Connection": "keep-alive",
+    "Vary": "Accept, Cookie, Origin",
+    "Allow": "POST, OPTIONS",
+    "X-Frame-Options": "DENY",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block",
+    "Set-Cookie": "sessionid=4ivwgxx2endadoig80gl914wgnexs1ge; expires=Fri, 20 Sep 2024 18:07:08 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax; Secure"
+}
