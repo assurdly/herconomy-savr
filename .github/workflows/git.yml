@@ -33,12 +33,12 @@ jobs:
         with:
           ref: gh-pages
           path: gh-pages
-      - name: Copy existing content to allure-history
-        run: |
-          mkdir -p allure-history
-          if [ -d gh-pages ]; then
-            cp -r gh-pages/* allure-history/
-          fi
+      # - name: Copy existing content to allure-history
+      #   run: |
+      #     mkdir -p allure-history
+      #     if [ -d gh-pages ]; then
+      #       cp -r gh-pages/* allure-history/
+      #     fi
       - name: Find latest folder in gh-pages
         id: latest_folder
         run: |
