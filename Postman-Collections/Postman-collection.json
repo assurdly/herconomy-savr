@@ -776,7 +776,7 @@
 							]
 						},
 						{
-							"name": "Register Copy",
+							"name": "Register-Empty Fields",
 							"event": [
 								{
 									"listen": "test",
