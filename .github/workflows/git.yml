@@ -87,7 +87,7 @@ jobs:
           echo "Summary Path: $summary_path"
           if [[ -e "$summary_path" ]]; then
             cat "$summary_path"  # Print content before
-            sudo sed -i 's/Allure Report/HerconomySavr - API Quality Readiness/' "$summary_path"
+            sudo sed -i 's/Allure Report/Herconomy-savr - API Quality Readiness/' "$summary_path"
             cat "$summary_path"  # Print content after
           else
             echo "Error: summary.json not found in the latest folder."
