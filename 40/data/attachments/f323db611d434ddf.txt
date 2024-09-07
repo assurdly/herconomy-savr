@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Ondricka - Schulist",
+    "gender":"male",
+	"first_name":"Elisabeth",               
+	"last_name": "Frami",                 
+	"email":"Kieran.Hilpert11@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
