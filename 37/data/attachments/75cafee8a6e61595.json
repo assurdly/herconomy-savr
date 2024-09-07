@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU3ODAzNjIsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1NjkzOTYyfQ.E1ZsBsFkyOxHizdS7XCx3NPfRv0vvbyW8VW0pbCu-nk",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "dd572ab5-045f-4f96-be0a-312b3eef6d0f",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "70",
+    "Cookie": "messages=\"c7176fd208851dbd9fe9be6f4150be782d5a35f3$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as jensen.jast.\\\"]]\"; csrftoken=HFVnZoUaybdrrX3z1Q9gOv2G3ZtGdIBbmO9OxcuZ9sEoB7uYD6rxCkfzxEtOIBcc; sessionid=6404uzen3jc4dyj152nge6kbai1aiedw"
+}
