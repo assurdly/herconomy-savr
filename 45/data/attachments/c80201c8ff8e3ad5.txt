@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Dietrich, McGlynn and Prosacco",
+    "gender":"male",
+	"first_name":"Malinda",               
+	"last_name": "Macejkovic",                 
+	"email":"Dell_Jacobs@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "ba0c1b66-fbf6-45b5-8bd3-c5aa460094fd",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "119",
+    "Cookie": "messages=\"df2825c0bf4e84d38d814647e4dd187250a64c84$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as dell_jacobs.\\\"]]\"; csrftoken=D3K7u6QfQ4JxHNAjdyouHvEPAkVyNZxXPJl6ZxWcwuJmPPAYQwdaiiNYxfAS0Qya; sessionid=e4laqi9xkol6bny2pnrr6bzbiwn5dbij"
+}
