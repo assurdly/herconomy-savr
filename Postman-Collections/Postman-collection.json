@@ -3961,391 +3961,292 @@
 			"name": "Employee",
 			"item": [
 				{
-					"name": "create_savr_employee",
-					"id": "2732e03c-88b7-4841-8348-edd683a164cc",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "{{jwt_token}}",
-								"type": "text",
-								"disabled": true
-							},
-							{
-								"key": "Authorization",
-								"value": "JWT {{savrToken}}",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"first_name\":\"Ajoke\",\n    \"last_name\":\"Bukky\",\n    \"email\":\"rasheedat+121@assurdly.com5@gmail.com\",\n    \"phone_number\":\"09224256129\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 120,\n    \"saving_frequency\":\"monthly\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/v1/savr/create_savr_employee/"
-					},
-					"response": [
+					"name": "Add Emplyee",
+					"item": [
 						{
-							"id": "9888e8bd-beb5-4540-947c-da58633fc876",
-							"name": "success",
-							"originalRequest": {
+							"name": "create_savr_employee",
+							"id": "2732e03c-88b7-4841-8348-edd683a164cc",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
 								"method": "POST",
 								"header": [
 									{
 										"key": "Authorization",
 										"value": "{{jwt_token}}",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
 										"type": "text",
 										"disabled": true
+									},
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+									"raw": "{\n    \"first_name\":\"Ajoke\",\n    \"last_name\":\"Bukky\",\n    \"email\":\"rasheedat+121@assurdly.com5@gmail.com\",\n    \"phone_number\":\"09224256129\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 120,\n    \"saving_frequency\":\"monthly\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
+								"url": "{{base_url}}/api/v1/savr/create_savr_employee/"
 							},
-							"status": "Created",
-							"code": 201,
-							"_postman_previewlanguage": "json",
-							"header": [
+							"response": [
 								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
-								},
-								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 09:41:11 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "275"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"id\": 120,\n    \"admin_email\": \"ugokingsley5@gmail.com\",\n    \"first_name\": \"bola\",\n    \"last_name\": \"John\",\n    \"email\": \"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\": \"09224256109\",\n    \"saving_amount\": \"5,000.0\",\n    \"saving_frequency\": \"monthly\",\n    \"employee_role\": [\n        3\n    ],\n    \"created_at\": \"2024-09-03T10:41:06.454027Z\"\n}"
-						},
-						{
-							"id": "4359aceb-51ef-48d5-9fa9-77db6c8bf756",
-							"name": "success - existing user",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "{{jwt_token}}",
-										"type": "text"
+									"id": "9888e8bd-beb5-4540-947c-da58633fc876",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
 									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:41:11 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "275"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
 										}
-									}
-								},
-								"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
-							},
-							"status": "Created",
-							"code": 201,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 120,\n    \"admin_email\": \"ugokingsley5@gmail.com\",\n    \"first_name\": \"bola\",\n    \"last_name\": \"John\",\n    \"email\": \"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\": \"09224256109\",\n    \"saving_amount\": \"5,000.0\",\n    \"saving_frequency\": \"monthly\",\n    \"employee_role\": [\n        3\n    ],\n    \"created_at\": \"2024-09-03T10:41:06.454027Z\"\n}"
 								},
 								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 09:37:17 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "46"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": [\n        \"User Exists, Created Employee!\"\n    ]\n}"
-						},
-						{
-							"id": "28711980-c3c4-4ec3-8719-15fd1757b6ac",
-							"name": "Error - savr employee exists",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "{{jwt_token}}",
-										"type": "text"
+									"id": "4359aceb-51ef-48d5-9fa9-77db6c8bf756",
+									"name": "success - existing user",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
 									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:37:17 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "46"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
 										}
-									}
-								},
-								"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
-							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"User Exists, Created Employee!\"\n    ]\n}"
 								},
 								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 09:39:29 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "37"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
+									"id": "28711980-c3c4-4ec3-8719-15fd1757b6ac",
+									"name": "Error - savr employee exists",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:39:29 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "37"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Exists!\"\n    ]\n}"
 								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": [\n        \"Savr Employee Exists!\"\n    ]\n}"
+							]
 						}
-					]
+					],
+					"id": "a2db6626-6888-4de9-bd07-b19ac7497f8e"
 				},
 				{
-					"name": "fund_savr_with_adminfloat_single",
-					"id": "95df08e9-bf34-44ee-89ea-7fb52f08a9f8",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "{{jwt_token}}",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text",
-								"disabled": true
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.com\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
-					},
-					"response": [
+					"name": "Fund Employee",
+					"item": [
 						{
-							"id": "b9ee1bbf-111f-475a-a5d7-4d72ec629604",
-							"name": "error - employee not in company",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "{{jwt_token}}",
-										"type": "text"
-									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.come\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+							"name": "fund_savr_with_adminfloat_single",
+							"id": "95df08e9-bf34-44ee-89ea-7fb52f08a9f8",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
 							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
-								},
-								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 10:06:52 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "45"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
-						},
-						{
-							"id": "137586d4-0ec3-4bde-a2ff-144f2dd9cf73",
-							"name": "success",
-							"originalRequest": {
+							"request": {
 								"method": "POST",
 								"header": [
 									{
@@ -4369,102 +4270,186 @@
 										}
 									}
 								},
-								"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+								"url": "{{base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
 							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
+							"response": [
 								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
+									"id": "b9ee1bbf-111f-475a-a5d7-4d72ec629604",
+									"name": "error - employee not in company",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.come\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:06:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
 								},
 								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 10:08:43 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "47"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
+									"id": "137586d4-0ec3-4bde-a2ff-144f2dd9cf73",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.com\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:08:43 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "47"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": \"Employee Vault Deposit Initiated!\"\n}"
 								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": \"Employee Vault Deposit Initiated!\"\n}"
+							]
 						}
-					]
+					],
+					"id": "a0718f11-1a75-47ed-b25c-3464a5767bb7"
 				},
 				{
-					"name": "savr_update_saving_amount",
-					"id": "538a8482-fa82-4217-b82b-404ec30091a0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "JWT {{savrToken}}",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text",
-								"disabled": true
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"employee_email\":\"rasheedat+121@assurdly.com\",\n    \"saving_amount\": 125\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/v1/savr/savr_update_saving_amount/"
-					},
-					"response": [
+					"name": "Fund Employee",
+					"item": [
 						{
-							"id": "f92d74f3-148b-4958-8af6-8d59e92b20bb",
-							"name": "Error - employee not in organisation",
-							"originalRequest": {
+							"name": "savr_update_saving_amount",
+							"id": "538a8482-fa82-4217-b82b-404ec30091a0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
 								"method": "POST",
 								"header": [
 									{
 										"key": "Authorization",
-										"value": "{{jwt_token}}",
+										"value": "JWT {{savrToken}}",
 										"type": "text"
 									},
 									{
@@ -4476,143 +4461,176 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"kingsle@gmail.com\",\n    \"saving_amount\": 500\n}",
+									"raw": "{\n    \"employee_email\":\"rasheedat+121@assurdly.com\",\n    \"saving_amount\": 125\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
+								"url": "{{base_url}}/api/v1/savr/savr_update_saving_amount/"
 							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
+							"response": [
 								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
-								},
-								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 09:48:02 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "45"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
-						},
-						{
-							"id": "283951f7-4eba-4e27-98c7-3ce2282cca85",
-							"name": "success",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "{{jwt_token}}",
-										"type": "text"
+									"id": "f92d74f3-148b-4958-8af6-8d59e92b20bb",
+									"name": "Error - employee not in organisation",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"kingsle@gmail.com\",\n    \"saving_amount\": 500\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
 									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"kingsleydaeta@gmail.com\",\n    \"saving_amount\": 500\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:48:02 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
 										}
-									}
-								},
-								"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
 								},
 								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 09:50:03 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "36"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
+									"id": "283951f7-4eba-4e27-98c7-3ce2282cca85",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"kingsleydaeta@gmail.com\",\n    \"saving_amount\": 500\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:50:03 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "36"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"meaage\": [\n        \"Saving amount updated\"\n    ]\n}"
 								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"meaage\": [\n        \"Saving amount updated\"\n    ]\n}"
+							]
 						}
-					]
+					],
+					"id": "5d868c8d-23a3-4312-8036-a762c62bb759"
 				},
 				{
 					"name": "savr_employee_transactions",
