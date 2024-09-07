@@ -6185,6 +6185,40 @@
 					"item": [
 						{
 							"name": "Change Password",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "f12dfbc0-2c40-4185-a26f-44d6f0184aa4",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 200\", function () {\r",
+											"        pm.response.to.have.status(200);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.detail).to.be.an('array'); // Fixed the data type check\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.expect(pm.response.status).to.equal(\"OK\"); // Changed to check the status text\r",
+											"    });\r",
+											"     pm.test('Verify a valid success response it returned', function () {\r",
+											"        pm.expect(jsonData.detail).to.eql([\"Successful\"]); // Updated the expected response value\r",
+											"    });\r",
+											"    } catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "c0aa6851-4e39-421d-bf50-d5ee4e33f65e",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -6205,7 +6239,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"old_password\": \"Nore@4me\",     // Enter the old password you want to change \n    \"password1\": \"More@4mi\",         // Enter new password\n    \"password2\": \"More@4mi\"          // Re-enter new password\n}"
+									"raw": "{\n\t\"old_password\": \"Password9\",     // Enter the old password you want to change \n    \"password1\": \"Password4\",         // Enter new password\n    \"password2\": \"Password4\"          // Re-enter new password\n}"
 								},
 								"url": "{{base_url}}/api/v1/users/change_password/"
 							},
@@ -6348,6 +6382,277 @@
 								},
 								{
 									"id": "7ade6278-a13a-41ec-ae0c-33d087da865b",
+									"name": "Invalid - Used password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"old_password\": \"Tope09%@###\",     // Enter the old password you want to change \n    \"password1\": \"Grace_123@###\",         // Enter new password\n    \"password2\": \"Grace_123@###\"          // Re-enter new password\n}"
+										},
+										"url": "{{base_url}}/api/v1/users/change_password/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 08:43:28 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "63"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "sessionid=\"\"; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"That password has already been used in the past\"\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "Change Password Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "f12dfbc0-2c40-4185-a26f-44d6f0184aa4",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 200\", function () {\r",
+											"        pm.response.to.have.status(200);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.detail).to.be.an('array'); // Fixed the data type check\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.expect(pm.response.status).to.equal(\"OK\"); // Changed to check the status text\r",
+											"    });\r",
+											"     pm.test('Verify a valid success response it returned', function () {\r",
+											"        pm.expect(jsonData.detail).to.eql([\"Successful\"]); // Updated the expected response value\r",
+											"    });\r",
+											"    } catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "a9e5b2e8-e6bf-4df9-8525-4834d9185bad",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"old_password\": \"Password9\",     // Enter the old password you want to change \n    \"password1\": \"Password4\",         // Enter new password\n    \"password2\": \"Password4\"          // Re-enter new password\n}"
+								},
+								"url": "{{base_url}}/api/v1/users/change_password/"
+							},
+							"response": [
+								{
+									"id": "0abfe775-124c-4cdc-a578-d6af09480dc5",
+									"name": "Invalid old password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"old_password\": \"Grace_123@###\",     // Enter the old password you want to change \n    \"password1\": \"Tope09%@###\",         // Enter new password\n    \"password2\": \"Tope09%@###\"          // Re-enter new password\n}"
+										},
+										"url": "{{base_url}}/api/v1/users/change_password/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 08:41:16 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "35"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"detail\": \"Old Password Incorrect\"\n}"
+								},
+								{
+									"id": "ad44461d-0764-447f-b4b6-3f4abf794406",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"old_password\": \"Tope09%@###\",     // Enter the old password you want to change \n    \"password1\": \"Grace_123@###\",         // Enter new password\n    \"password2\": \"Grace_123@###\"          // Re-enter new password\n}"
+										},
+										"url": "{{base_url}}/api/v1/users/change_password/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 08:42:36 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "25"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"detail\": [\n        \"Successful\"\n    ]\n}"
+								},
+								{
+									"id": "286c195f-c6b6-4913-9003-cc061435ea93",
 									"name": "Invalid - Used password",
 									"originalRequest": {
 										"method": "POST",
