@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Donnelly, Lynch and Schiller",
+    "gender":"male",
+	"first_name":"Margarete",               
+	"last_name": "Collier",                 
+	"email":"Furman99@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
