@@ -2342,6 +2342,317 @@
 									"body": "{\n    \"non_field_errors\": [\n        \"Invalid password\"\n    ]\n}"
 								}
 							]
+						},
+						{
+							"name": "Login -Invalid Credentials Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "083ea904-2240-48c3-9d88-420958bdb983",
+										"exec": [
+											"try {\r",
+											"const jsonData = pm.response.json();\r",
+											"\r",
+											"pm.test(\"Response body property\", function () {\r",
+											"    pm.expect(jsonData).to.be.an('object');\r",
+											"    pm.expect(jsonData.message).to.be.an('array');\r",
+											"});\r",
+											"pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Bad Request\");\r",
+											"    });\r",
+											"    pm.test(\"Verify a valid data error response it returned\", function () {\r",
+											"        pm.expect(jsonData.message).to.eql([\"Invalid credentials\"]);\r",
+											"    });\r",
+											"pm.test(\"Status code is 400\", function () {\r",
+											"    pm.response.to.have.status(400);\r",
+											"});\r",
+											"} catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "51258c68-5dc0-49d8-95e9-aefd8ecf1406",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"abisola+18@assurdly.com\",       // Enter registered email\n\t\"password\":\"@Password2\"          // Enter Registered Password\n}"
+								},
+								"url": "{{base_url}}/api/v1/rest-auth/login/"
+							},
+							"response": [
+								{
+									"id": "dd562fe7-0f8d-4306-93df-7b83fcfa2839",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"deborahchukwudi1992@gmail.com\",       // Enter registered email\n\t\"password\":\"adanne5050\"          // Enter Registered Password\n}"
+										},
+										"url": "{{staging_base_url}}/api/v1/rest-auth/login/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 07:25:54 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "1463"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "csrftoken=Xy1C2k71aNg5RcG5kgIo3NNMOQ48Dlz3OEX4C17KlT8OZXkmJj3QiNehrfrRIIzH; expires=Fri, 25 Oct 2024 07:25:53 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax"
+										},
+										{
+											"key": "Set-Cookie",
+											"value": "sessionid=fbyhtgt8d255epxde3msyohz3f2r5j7j; expires=Fri, 10 Nov 2023 07:25:53 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNTA2NmUzN2EtYTEyZC00ZTIyLTkyYzEtYTBjMGNkZDg0Nzk3IiwidXNlcm5hbWUiOiJ1Z29raW5nc2xleTUiLCJleHAiOjE2OTg0Nzc5NDgsImVtYWlsIjoidWdva2luZ3NsZXk1QGdtYWlsLmNvbSIsIm9yaWdfaWF0IjoxNjk4MzkxNTQ4fQ.zOvvDhbic1paLaMJgscAXUwqtQM_WUMWAeKrJXG5QnQ\",\n    \"user\": {\n        \"id\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n        \"username\": \"ugokingsley5\",\n        \"email\": \"ugokingsley5@gmail.com\",\n        \"first_name\": \"UGOCHUKWU\",\n        \"last_name\": \"NWANAJI\",\n        \"moniker\": \"user\",\n        \"tier\": \"tierone\",\n        \"user_tag\": \"HERC-61330\",\n        \"gender\": \"male\",\n        \"title\": null,\n        \"phone_number\": \"2347033094539\",\n        \"phone_number_verified\": true,\n        \"interest\": null,\n        \"photo\": null,\n        \"onboarded\": true,\n        \"date_of_birth\": \"1991-06-21\",\n        \"is_email_verified\": false,\n        \"is_kyc_verified\": false,\n        \"is_kyc_submitted\": false,\n        \"is_bvn_verified\": true,\n        \"is_address_doc_verified\": false,\n        \"is_address_doc_submitted\": false,\n        \"halal\": true,\n        \"is_blocked\": false,\n        \"is_subscribed\": false,\n        \"gold_card_status\": \"Not Issued\",\n        \"company_name\": null,\n        \"nationality\": null,\n        \"location\": \"lagos\",\n        \"following\": false,\n        \"follower\": false,\n        \"job_location\": null,\n        \"education\": [],\n        \"my_groups\": [],\n        \"my_topics\": [],\n        \"profession\": null,\n        \"job_title\": null,\n        \"bio\": null,\n        \"industry\": null,\n        \"facebook_id\": null,\n        \"twitter_id\": null,\n        \"linkedin_id\": null,\n        \"notification_id\": null,\n        \"date_joined\": \"2023-10-04T11:36:50.490178Z\",\n        \"date_modified\": \"2023-10-13T11:28:39.043686Z\",\n        \"status\": false,\n        \"gql_acc\": false,\n        \"subcribed_to_mail\": true,\n        \"compromised\": false,\n        \"account_locked\": false,\n        \"salary_range\": null,\n        \"has_performed_transaction\": false\n    }\n}"
+								},
+								{
+									"id": "3da88c8f-4c43-48c4-9408-f4ff1d1be472",
+									"name": "Invalid email",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"ugokingsley5@gmail.com\",       // Enter registered email\n\t\"password\":\"Gr%%ce_123@###\"          // Enter Registered Password\n}"
+										},
+										"url": "{{base_url}}/api/v1/rest-auth/login/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 07:28:09 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "56"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"non_field_errors\": [\n        \"User with email does not exist.\"\n    ]\n}"
+								},
+								{
+									"id": "520817d7-9849-449b-bcd9-20fd866f4973",
+									"name": "Invalid password n-times",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"ugokingsley5@gmail.com\",       // Enter registered email\n\t\"password\":\"Gr%%ce_123@###\"          // Enter Registered Password\n}"
+										},
+										"url": "{{base_url}}/api/v1/rest-auth/login/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 07:31:21 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "72"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"non_field_errors\": [\n        \"5 failed login attempts, try again in 5 minutes\"\n    ]\n}"
+								},
+								{
+									"id": "c8a4b21e-a9ba-4604-84ba-3d0065578f7a",
+									"name": "invalid password",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"ugokingsley5@gmail.com\",       // Enter registered email\n\t\"password\":\"Gr%%ce_123@###\"          // Enter Registered Password\n}"
+										},
+										"url": "{{base_url}}/api/v1/rest-auth/login/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 07:35:04 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "41"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"non_field_errors\": [\n        \"Invalid password\"\n    ]\n}"
+								}
+							]
 						}
 					],
 					"id": "45120018-a00b-433e-ab17-01b0dc682a42"
