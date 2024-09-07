@@ -1,4 +1,0 @@
-{
-    "employee_email":"rasheedat+121@assurdly.com",
-    "saving_amount": 125
-}
