@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Kirlin Inc",
+    "gender":"male",
+	"first_name":"Rodolfo",               
+	"last_name": "Blanda",                 
+	"email":"Sherwood40@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
