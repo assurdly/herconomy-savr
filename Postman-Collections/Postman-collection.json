@@ -13,6 +13,51 @@
 					"item": [
 						{
 							"name": "Register",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aff7845e-8364-4971-ac03-df35330fe1d2",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"    pm.test(\"Status code is 201\", function () {\r",
+											"        pm.response.to.have.status(201);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.user).to.be.an('object');\r",
+											"        pm.expect(jsonData.user.user_role).to.be.an('array');\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Created\");\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"User has valid property\", () => {\r",
+											"        pm.expect(jsonData.user).to.have.property('has_performed_transaction');\r",
+											"        pm.expect(jsonData.user).to.have.property('id');\r",
+											"        pm.expect(jsonData.user).to.have.property('username');\r",
+											"        pm.expect(jsonData.user).to.have.property('email');\r",
+											"        pm.expect(jsonData.user).to.have.property('first_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('last_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('moniker');\r",
+											"        pm.expect(jsonData.user).to.have.property('tier');\r",
+											"        pm.expect(jsonData.user).to.have.property('user_tag');\r",
+											"        pm.expect(jsonData.user).to.have.property('gender');\r",
+											"        pm.expect(jsonData.user).to.have.property('title');\r",
+											"    })\r",
+											"} catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "b402fb86-164b-4d71-a22c-6fceb82a0a5a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -27,7 +72,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"user_role\": \"COO\",\n    \"company_name\":\"Daetacity\",\n    \"gender\":\"male\",\n\t\"first_name\":\"rasheedatu\",               // user first name \n\t\"last_name\": \"ajii\",                 // user last name\n\t\"email\":\"rasheedat+120@assurdly.com\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"             // re-enter password\n\t\n}"
+									"raw": "{\n    \"user_role\": \"COO\",\n    \"company_name\":\"Daetacity\",\n    \"gender\":\"male\",\n\t\"first_name\":\"rasheedatu\",               // user first name \n\t\"last_name\": \"ajii\",                 // user last name\n\t\"email\":\"rasheedat+32@assurdly.com\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"             // re-enter password\n\t\n}"
 								},
 								"url": "{{base_url}}/api/v1/rest-auth/registration/"
 							},
