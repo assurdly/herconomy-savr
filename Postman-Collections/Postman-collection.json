@@ -2344,7 +2344,7 @@
 							]
 						},
 						{
-							"name": "Login -Invalid Credentials Copy",
+							"name": "Login -Empty fields",
 							"event": [
 								{
 									"listen": "test",
