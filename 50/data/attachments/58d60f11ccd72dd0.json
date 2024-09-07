@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "c6dd0524-ca0e-45a4-b43b-fbe92fb80897",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "133",
+    "Cookie": "messages=\"4d351e7ecc81da78ae9b1e6d2c200010fd0570a8$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as flavie.block93.\\\"]]\"; csrftoken=WGGtrLUe8yxKRVnweke7VQnr6T0QQa9fC0oYH35mOKV1EeZEm4r8j8YqLT7FR7xW; sessionid=sprrz0b5ohmaqkbtuw4t758cp8jg7zus"
+}

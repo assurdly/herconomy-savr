@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Pollich - Huels",
+    "gender":"male",
+	"first_name":"Albina",               
+	"last_name": "Funk",                 
+	"email":"Flavie.Block93@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,1 +1,0 @@
-{"message":["ValidationError: NIN must contain only digits"]}
