@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "b97bc8b5-b918-4192-ab3e-9b90efd326d9",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "49",
+    "Cookie": "messages=\"146a595a439686a5913d073fa5cec4a13323afde$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as zion.lindgren.\\\"]]\"; csrftoken=LaYyeosiYemq4jDioihslVO8ImsHUdFVvGACMqGe2IJoFgnN58agxaphNGtirmdS; sessionid=3lm0kpkoocmtpys360aaayzu6jv671g7"
+}
