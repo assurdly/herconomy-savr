@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Connelly - Bartoletti",
+    "gender":"male",
+	"first_name":"Coralie",               
+	"last_name": "Bergnaum",                 
+	"email":"Ardith_Hirthe52@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
