@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "d060cb01-43dd-483b-9160-cedec75ef76b",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "117",
+    "Cookie": "messages=\"07b70b83a3a4c2ba763ec3a08163f7efe65eb9b2$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as lane58.\\\"]]\"; csrftoken=mRdnGJOk0QPJyMmNRsPs5flxjorYEayHyJuv5S2MGvDGmrIYBZjmOTGPhtsjrChx; sessionid=zz55lkgktcvu3z0yjiq6g9e10uzgmnzt"
+}
