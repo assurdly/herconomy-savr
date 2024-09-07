@@ -283,35 +283,25 @@
 										"exec": [
 											"try {\r",
 											"    const jsonData = pm.response.json();\r",
-											"    pm.test(\"Status code is 201\", function () {\r",
-											"        pm.response.to.have.status(201);\r",
+											"\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
 											"    });\r",
 											"\r",
-											"    pm.test(\"Response body property\", function () {\r",
-											"        pm.expect(jsonData).to.be.an('object');\r",
-											"        pm.expect(jsonData.user).to.be.an('object');\r",
-											"        pm.expect(jsonData.user.user_role).to.be.an('array');\r",
+											"    pm.test(\"Status code response is Bad Request \", function () {\r",
+											"        pm.response.to.have.status(400);\r",
 											"    });\r",
 											"\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"Created\");\r",
-											"    });\r",
+											"    pm.test(\"Response body has property 'email'\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"email\");\r",
+											"    pm.expect(jsonData.email).to.be.an(\"array\");\r",
+											"});\r",
 											"\r",
-											"    pm.test(\"User has valid property\", () => {\r",
-											"        pm.expect(jsonData.user).to.have.property('has_performed_transaction');\r",
-											"        pm.expect(jsonData.user).to.have.property('id');\r",
-											"        pm.expect(jsonData.user).to.have.property('username');\r",
-											"        pm.expect(jsonData.user).to.have.property('email');\r",
-											"        pm.expect(jsonData.user).to.have.property('first_name');\r",
-											"        pm.expect(jsonData.user).to.have.property('last_name');\r",
-											"        pm.expect(jsonData.user).to.have.property('moniker');\r",
-											"        pm.expect(jsonData.user).to.have.property('tier');\r",
-											"        pm.expect(jsonData.user).to.have.property('user_tag');\r",
-											"        pm.expect(jsonData.user).to.have.property('gender');\r",
-											"        pm.expect(jsonData.user).to.have.property('title');\r",
+											"    pm.test('Verify a valid data error response it returned', () => {\r",
+											"        pm.expect(jsonData.email).eql([\"A user is already registered with this e-mail address\"])\r",
 											"    })\r",
-											"} catch (error) {\r",
-											"    console.error(error)\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
 											"}\r",
 											""
 										],
@@ -469,6 +459,268 @@
 								},
 								{
 									"id": "1517a157-8fc9-47c5-b911-0748a409d7e0",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\": \"austinebenard247@gmail.com\",\n    \"password1\": \"Austino@1228\",\n    \"password2\": \"Austino@1228\"\n}"
+										},
+										"url": "{{base_url}}/api/v1/rest-auth/registration/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 09:47:54 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "62"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTMwOWFlYWEtMjEyMC00MjZiLWJjZWUtYTU5YWVkZGUyZTllIiwidXNlcm5hbWUiOiJkYW5pIiwiZXhwIjoxNjk4NDg2MjUyLCJlbWFpbCI6ImRhbmlAZ21haWwuY29tIiwib3JpZ19pYXQiOjE2OTgzOTk4NTJ9.uuBblw_0K-2BmuDSAoGqqxR-gmcmzAbYqQxA3EWNa3c\",\n    \"user\": {\n        \"id\": \"1309aeaa-2120-426b-bcee-a59aedde2e9e\",\n        \"username\": \"dani\",\n        \"email\": \"dani@gmail.com\",\n        \"first_name\": \"\",\n        \"last_name\": \"\",\n        \"moniker\": \"user\",\n        \"tier\": \"notier\",\n        \"user_tag\": \"HERC-61371\",\n        \"gender\": null,\n        \"title\": null,\n        \"phone_number\": null,\n        \"phone_number_verified\": false,\n        \"interest\": null,\n        \"photo\": null,\n        \"onboarded\": false,\n        \"date_of_birth\": null,\n        \"is_email_verified\": false,\n        \"is_kyc_verified\": false,\n        \"is_kyc_submitted\": false,\n        \"is_bvn_verified\": false,\n        \"is_address_doc_verified\": false,\n        \"is_address_doc_submitted\": false,\n        \"halal\": false,\n        \"is_blocked\": false,\n        \"is_subscribed\": false,\n        \"gold_card_status\": \"Not Issued\",\n        \"company_name\": null,\n        \"nationality\": null,\n        \"location\": null,\n        \"following\": false,\n        \"follower\": false,\n        \"job_location\": null,\n        \"education\": [],\n        \"my_groups\": [],\n        \"my_topics\": [],\n        \"profession\": null,\n        \"job_title\": null,\n        \"bio\": null,\n        \"industry\": null,\n        \"facebook_id\": null,\n        \"twitter_id\": null,\n        \"linkedin_id\": null,\n        \"notification_id\": null,\n        \"date_joined\": \"2023-10-27T10:44:12.892425Z\",\n        \"date_modified\": \"2023-10-27T10:44:12.979231Z\",\n        \"status\": false,\n        \"gql_acc\": false,\n        \"subcribed_to_mail\": true,\n        \"compromised\": false,\n        \"account_locked\": false,\n        \"salary_range\": null,\n        \"has_performed_transaction\": false\n    }\n}"
+								}
+							]
+						},
+						{
+							"name": "Register Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aff7845e-8364-4971-ac03-df35330fe1d2",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"    pm.test(\"Status code is 201\", function () {\r",
+											"        pm.response.to.have.status(201);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.user).to.be.an('object');\r",
+											"        pm.expect(jsonData.user.user_role).to.be.an('array');\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Created\");\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"User has valid property\", () => {\r",
+											"        pm.expect(jsonData.user).to.have.property('has_performed_transaction');\r",
+											"        pm.expect(jsonData.user).to.have.property('id');\r",
+											"        pm.expect(jsonData.user).to.have.property('username');\r",
+											"        pm.expect(jsonData.user).to.have.property('email');\r",
+											"        pm.expect(jsonData.user).to.have.property('first_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('last_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('moniker');\r",
+											"        pm.expect(jsonData.user).to.have.property('tier');\r",
+											"        pm.expect(jsonData.user).to.have.property('user_tag');\r",
+											"        pm.expect(jsonData.user).to.have.property('gender');\r",
+											"        pm.expect(jsonData.user).to.have.property('title');\r",
+											"    })\r",
+											"} catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "a4da58b1-3151-4669-9778-b6be11a62684",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_role\": \"COO\",\n    \"company_name\":\"Daetacity\",\n    \"gender\":\"male\",\n\t\"first_name\":\"rasheedatu\",               // user first name \n\t\"last_name\": \"ajii\",                 // user last name\n\t\"email\":\"rasheedat+32@assurdly.com\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"             // re-enter password\n\t\n}"
+								},
+								"url": "{{base_url}}/api/v1/rest-auth/registration/"
+							},
+							"response": [
+								{
+									"id": "ebd88761-8dda-4fac-8231-b1c875b20292",
+									"name": "Invalid - Email Exists",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"first_name\":\"daeta\",               // user first name \n\t\"last_name\": \"cty\",                 // user last name\n\t\"email\":\"daetacity@gmail.com\",    // email address\n\t\"password1\":\"Grace_123\",            // password\n\t\"password2\":\"Grace_123\"             // re-enter password\n\t\n}"
+										},
+										"url": "{{base_url}}/api/v1/rest-auth/registration/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 09:04:42 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "68"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"email\": [\n        \"A user is already registered with this e-mail address.\"\n    ]\n}"
+								},
+								{
+									"id": "24aedb92-ce64-4c47-b3ad-b4d6cea5b88c",
+									"name": "Invalid - Password Unmatch",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{ \n\t\"email\":\"kingsleydaeta@gmail.com\",    // email address\n\t\"password1\":\"Grace_123d\",            // password\n\t\"password2\":\"Grace_123\"             // re-enter password\n}"
+										},
+										"url": "https://staging.herconomy.com/api/v1/rest-auth/registration/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 09:47:54 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "62"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"non_field_errors\": [\n        \"The two password fields didn't match.\"\n    ]\n}"
+								},
+								{
+									"id": "b1d7fe25-1561-4ef3-bf9e-fc8b5fdf5a27",
 									"name": "success",
 									"originalRequest": {
 										"method": "POST",
