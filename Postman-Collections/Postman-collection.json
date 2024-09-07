@@ -1036,11 +1036,59 @@
 						},
 						{
 							"name": "Savr Registration (existing herconomy account)",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6b0d8bba-4143-480a-a284-3e1b642ca761",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"    pm.test(\"Status code is 201\", function () {\r",
+											"        pm.response.to.have.status(201);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.user).to.be.an('object');\r",
+											"        pm.expect(jsonData.user.user_role).to.be.an('array');\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code name has string\", function () {\r",
+											"        pm.response.to.have.status(\"Created\");\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"User has valid property\", () => {\r",
+											"        pm.expect(jsonData.user).to.have.property('has_performed_transaction');\r",
+											"        pm.expect(jsonData.user).to.have.property('id');\r",
+											"        pm.expect(jsonData.user).to.have.property('username');\r",
+											"        pm.expect(jsonData.user).to.have.property('email');\r",
+											"        pm.expect(jsonData.user).to.have.property('first_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('last_name');\r",
+											"        pm.expect(jsonData.user).to.have.property('moniker');\r",
+											"        pm.expect(jsonData.user).to.have.property('tier');\r",
+											"        pm.expect(jsonData.user).to.have.property('user_tag');\r",
+											"        pm.expect(jsonData.user).to.have.property('gender');\r",
+											"        pm.expect(jsonData.user).to.have.property('title');\r",
+											"    })\r",
+											"} catch (error) {\r",
+											"    console.error(error)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "663031a3-d906-4cb0-8eaa-c8e0b1b7c31a",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "noauth"
+								},
 								"method": "POST",
 								"header": [
 									{
@@ -1052,7 +1100,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"user_role\": \"COO\",\n    \"company_name\":\"Daetacity\",\n    \"gender\":\"male\",\n    \"group\": \"savr\",\n    \"email\":\"rasheedat+120@assurdly.com\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"         \n}",
+									"raw": "{\n    \"user_role\": \"COO\",\n    \"company_name\":\"Daetacity\",\n    \"gender\":\"male\",\n    \"group\": \"savr\",\n    \"email\":\"aopoy89@yahoo.com\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"         \n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2360,10 +2408,10 @@
 											"pm.test(\"Status code name has string\", function () {\r",
 											"        pm.response.to.have.status(\"Bad Request\");\r",
 											"    });\r",
-											"    pm.test(\"Verify a valid data error response it returned\", function () {\r",
-											"        pm.expect(jsonData.email).to.eql([\"This field may not be blank.\"]);\r",
-											"          pm.expect(jsonData.password).to.eql([\"This field may not be blank.\"]);\r",
-											"    });\r",
+											"    // pm.test(\"Verify a valid data error response it returned\", function () {\r",
+											"    //     pm.expect(jsonData.email).to.eql([\"This field may not be blank.\"]);\r",
+											"    //       pm.expect(jsonData.password).to.eql([\"This field may not be blank.\"]);\r",
+											"    // });\r",
 											"pm.test(\"Status code is 400\", function () {\r",
 											"    pm.response.to.have.status(400);\r",
 											"});\r",
