@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Mosciski - Padberg",
+    "gender":"male",
+	"first_name":"Wanda",               
+	"last_name": "Kreiger",                 
+	"email":"Eugene.Huel70@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
