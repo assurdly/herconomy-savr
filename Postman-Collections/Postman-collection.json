@@ -3594,7 +3594,7 @@
 									]
 								},
 								{
-									"name": "BVN Validation-Mismatch last phone no digits Copy",
+									"name": "BVN Validation-Mismatch DOB",
 									"event": [
 										{
 											"listen": "test",
@@ -3621,7 +3621,7 @@
 													"    })\r",
 													"\r",
 													"    pm.test('Verify a valid data error response it returned', () => {\r",
-													"        pm.expect(jsonData.message).eql([\"Last 4 digits does not match\"])\r",
+													"        pm.expect(jsonData.message).eql([\"Date of birth does not match\"])\r",
 													"    })\r",
 													"} catch (errors) {\r",
 													"    console.error(errors)\r",
@@ -3654,7 +3654,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"bvn\": \"22478585863\",                      // BVN Number\n    \"dob\": \"2001-02-14\",                      // Date of Birth\n    \"last4\": \"1999\"                     // last 4 digits of phone number\n}",
+											"raw": "{\n\t\"bvn\": \"22478585863\",                      // BVN Number\n    \"dob\": \"2003-02-14\",                      // Date of Birth\n    \"last4\": \"1759\"                     // last 4 digits of phone number\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -3666,6 +3666,151 @@
 									"response": [
 										{
 											"id": "23345a9a-7e48-426a-adf1-965b78a4fb8b",
+											"name": "success",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json",
+														"type": "text"
+													},
+													{
+														"key": "Authorization",
+														"value": "{{jwt_token}}",
+														"type": "text"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n\t\"bvn\": \"9054561850\",                      // BVN Number\n    \"dob\": \"1977-06-21\",                      // Date of Birth\n    \"last4\": \"4539\"                     // last 4 digits of account number\n}"
+												},
+												"url": "{{staging_base_url}}/api/v1/users/matchBVNRequestV2/"
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Server",
+													"value": "nginx/1.18.0 (Ubuntu)"
+												},
+												{
+													"key": "Date",
+													"value": "Tue, 03 Sep 2024 10:24:08 GMT"
+												},
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												},
+												{
+													"key": "Content-Length",
+													"value": "1753"
+												},
+												{
+													"key": "Connection",
+													"value": "keep-alive"
+												},
+												{
+													"key": "Vary",
+													"value": "Accept, Cookie, Origin"
+												},
+												{
+													"key": "Allow",
+													"value": "POST, OPTIONS"
+												},
+												{
+													"key": "X-Frame-Options",
+													"value": "DENY"
+												},
+												{
+													"key": "Strict-Transport-Security",
+													"value": "max-age=60; includeSubDomains; preload"
+												},
+												{
+													"key": "X-XSS-Protection",
+													"value": "1; mode=block"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": "{\n    \"id\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n    \"username\": \"ugokingsley5\",\n    \"email\": \"ugokingsley5@gmail.com\",\n    \"first_name\": \"UGOCHUKWU\",\n    \"last_name\": \"NWANAJI\",\n    \"moniker\": \"user\",\n    \"tier\": \"tierthree\",\n    \"user_tag\": \"HERC-61330\",\n    \"gender\": \"Daetacity\",\n    \"title\": null,\n    \"phone_number\": \"2347033094539\",\n    \"phone_number_verified\": true,\n    \"interest\": null,\n    \"photo\": \"https://ags-live-media-files.s3.amazonaws.com/emails/ugokingsley5%40gmail.com/Screenshot_2024-08-15_at_14.52.16.png?AWSAccessKeyId=AKIAUPDYUWDZBGWI5253&Signature=Amn32jLu5wodcsSpA4kt6Ogu9%2BA%3D&Expires=1725362644\",\n    \"onboarded\": true,\n    \"date_of_birth\": \"1991-06-21\",\n    \"is_email_verified\": true,\n    \"is_kyc_verified\": true,\n    \"is_kyc_submitted\": true,\n    \"is_bvn_verified\": true,\n    \"is_nin_verified\": true,\n    \"is_nin_slip_uploaded\": true,\n    \"is_nin_slip_verified\": false,\n    \"is_cac_uploaded\": true,\n    \"is_cac_verified\": false,\n    \"is_usertier_flag\": false,\n    \"is_address_doc_verified\": false,\n    \"is_address_doc_submitted\": false,\n    \"two_cards\": false,\n    \"halal\": false,\n    \"is_blocked\": false,\n    \"is_subscribed\": false,\n    \"gold_card_status\": \"Not Issued\",\n    \"company_name\": \"Daetacity\",\n    \"user_role\": [],\n    \"nationality\": \"null\",\n    \"location\": \"lagos\",\n    \"following\": false,\n    \"follower\": false,\n    \"job_location\": null,\n    \"education\": [],\n    \"my_groups\": [],\n    \"savr_group\": true,\n    \"my_topics\": [\n        {\n            \"id\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84798\",\n            \"title\": \"hello world\",\n            \"thumbnail\": null\n        }\n    ],\n    \"profession\": \"null\",\n    \"job_title\": \"hello\",\n    \"bio\": \"hello\",\n    \"industry\": \"aum1\",\n    \"facebook_id\": \"https://fff.com\",\n    \"twitter_id\": \"https://ff.com\",\n    \"linkedin_id\": \"https://ff.com\",\n    \"notification_id\": \"null\",\n    \"date_joined\": \"2023-10-04T11:36:50.000000Z\",\n    \"date_modified\": \"2024-09-03T11:24:03.705195Z\",\n    \"status\": false,\n    \"gql_acc\": false,\n    \"subcribed_to_mail\": true,\n    \"compromised\": false,\n    \"account_locked\": false,\n    \"salary_range\": null,\n    \"has_performed_transaction\": true,\n    \"has_kiddosave_account\": true\n}"
+										}
+									]
+								},
+								{
+									"name": "BVN Validation-Mismatch DOB Copy",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"id": "ffd804a5-1b13-4cf6-a21a-8f60a47f602e",
+												"exec": [
+													"try {\r",
+													"    const jsonData = pm.response.json();\r",
+													"\r",
+													"    pm.test(\"Status code is 400\", function () {\r",
+													"        pm.response.to.have.status(400);\r",
+													"    });\r",
+													"\r",
+													"    pm.test(\"Status code response is Bad Request \", function () {\r",
+													"        pm.response.to.have.status(400);\r",
+													"    });\r",
+													"\r",
+													"    pm.test(\"Response body has property 'message'\", function () {\r",
+													"    pm.expect(jsonData).to.have.property(\"message\");\r",
+													"    pm.expect(jsonData.message).to.be.an(\"array\");\r",
+													"    });\r",
+													"     pm.test('Verify a valid data error response it returned', () => {\r",
+													"        pm.expect(jsonData.status).eql(\"mismatch\")\r",
+													"    })\r",
+													"\r",
+													"    pm.test('Verify a valid data error response it returned', () => {\r",
+													"        pm.expect(jsonData.message).eql([\"Date of birth does not match\"])\r",
+													"    })\r",
+													"} catch (errors) {\r",
+													"    console.error(errors)\r",
+													"}\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"id": "4c6a04e2-621e-4257-a5c1-107b1a9379b4",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											},
+											{
+												"key": "Authorization",
+												"value": "JWT {{savrToken}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"bvn\": \"22478585863\",                      // BVN Number\n    \"dob\": \"2003-02-14\",                      // Date of Birth\n    \"last4\": \"1759\"                     // last 4 digits of phone number\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{base_url}}/api/v1/users/matchBVNRequestV2/"
+									},
+									"response": [
+										{
+											"id": "147c4da7-15c2-41bb-8aed-53cb52a7c7f2",
 											"name": "success",
 											"originalRequest": {
 												"method": "POST",
