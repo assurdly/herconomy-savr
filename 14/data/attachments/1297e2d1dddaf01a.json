@@ -1,0 +1,13 @@
+{
+    "Authorization": "{{jwt_token}}",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "7f6c8e0f-4a26-4fc0-823c-ec243262cbf5",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "51",
+    "Cookie": "csrftoken=O9PVp1BsyldZYeWqvKpyulAsywv5ZoEy29ZdFA2XsVUHUpXyTCGiq5ZLChV4v35w; sessionid=8ak6ubwuad2v9uf7fnc6ytvp5qnzhh5v"
+}
