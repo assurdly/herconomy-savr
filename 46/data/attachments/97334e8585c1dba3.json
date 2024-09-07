@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "d04e4f0c-8b67-4c70-b5c9-7813b0e7fa03",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "80",
+    "Cookie": "messages=\"8958faedf51070e86dec71ef390f52b4cb5845a1$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as kevon63.\\\"]]\"; csrftoken=MBVYm8XPSJ1SaQbIcjp09xCQheSjazMj7wUYXxZvSg1c5zBB8oOlyiPvbfHRKgR3; sessionid=ji9azyfulnimfaq3zfqvmvnyp5kleqjy"
+}

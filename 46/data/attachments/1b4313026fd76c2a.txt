@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Brown, Leffler and Friesen",
+    "gender":"male",
+	"first_name":"Norma",               
+	"last_name": "Schaden",                 
+	"email":"Kevon63@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
