@@ -3164,7 +3164,7 @@
 													"});\r",
 													"\r",
 													"    pm.test('Verify a valid data error response it returned', () => {\r",
-													"        pm.expect(jsonData.message).eql([\"User with BVN details already exist!\"])\r",
+													"        pm.expect(jsonData.message).eql([\"Error fetching BVN Data\"])\r",
 													"    })\r",
 													"} catch (errors) {\r",
 													"    console.error(errors)\r",
@@ -3196,7 +3196,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n\t\"bvn\": \"22478585863\",                      // BVN Number\n    \"dob\": \"2001-02-14\",                      // Date of Birth\n    \"last4\": \"1759\"                     // last 4 digits of account number\n}"
+											"raw": "{\n\t\"bvn\": \"22478585XX\",                      // BVN Number\n    \"dob\": \"2001-02-14\",                      // Date of Birth\n    \"last4\": \"1759\"                     // last 4 digits of account number\n}"
 										},
 										"url": "{{base_url}}/api/v1/users/matchBVNRequestV2/"
 									},
