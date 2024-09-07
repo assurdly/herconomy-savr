@@ -6995,7 +6995,7 @@
 							]
 						},
 						{
-							"name": "Change Password-Incorrect old password Copy",
+							"name": "Change Password-Less than 6 digits",
 							"event": [
 								{
 									"listen": "test",
