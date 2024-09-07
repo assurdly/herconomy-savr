@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Renner - Turcotte",
+    "gender":"male",
+	"first_name":"Heidi",               
+	"last_name": "Hahn",                 
+	"email":"Alba85@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
