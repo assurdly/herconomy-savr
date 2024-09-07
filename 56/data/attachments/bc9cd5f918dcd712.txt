@@ -1,0 +1,5 @@
+{
+	"old_password": "@Password2",     
+    "password1": "@Password2",         
+    "password2": "@Password2"          
+}
