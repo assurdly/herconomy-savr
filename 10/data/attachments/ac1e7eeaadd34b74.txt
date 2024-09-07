@@ -1,0 +1,19 @@
+try {
+const jsonData = pm.response.json();
+
+pm.test("Response body property", function () {
+    pm.expect(jsonData).to.be.an('object');
+    pm.expect(jsonData.message).to.be.an('array');
+});
+pm.test("Status code name has string", function () {
+        pm.response.to.have.status("Bad Request");
+    });
+    pm.test("Verify a valid data error response it returned", function () {
+        pm.expect(jsonData.message).to.eql(["Invalid credentials"]);
+    });
+pm.test("Status code is 400", function () {
+    pm.response.to.have.status(400);
+});
+} catch (error) {
+    console.error(error)
+}
