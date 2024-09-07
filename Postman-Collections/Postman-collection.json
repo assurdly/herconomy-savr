@@ -4571,7 +4571,7 @@
 													"    });\r",
 													"\r",
 													"    pm.test('Verify a valid data error response it returned', () => {\r",
-													"        pm.expect(jsonData.message).eql([\"These fields cannot be empty\"])\r",
+													"        pm.expect(jsonData.message).eql([\"This field may not be blank.\"])\r",
 													"    })\r",
 													"} catch (errors) {\r",
 													"    console.error(errors)\r",
