@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Sporer and Sons",
+    "gender":"male",
+	"first_name":"Dayna",               
+	"last_name": "Walsh",                 
+	"email":"Corrine42@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
