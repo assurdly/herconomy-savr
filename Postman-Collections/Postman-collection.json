@@ -2950,8 +2950,7 @@
 												"id": "ffd804a5-1b13-4cf6-a21a-8f60a47f602e",
 												"exec": [
 													"try {\r",
-													"        var jsonData = pm.response.json();\r",
-													"\r",
+													"      const jsonData = pm.response.json();\r",
 													"        pm.test(\"Status code is 200\", function () {\r",
 													"            pm.response.to.have.status(200);\r",
 													"        });\r",
