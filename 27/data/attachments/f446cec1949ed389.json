@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU3Nzc0MTgsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1NjkxMDE4fQ.eBIUCvJ-qd4AVKpCwErtN4qvTgMUHLpj0KPFVCxAYKY",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "3aa3d0b2-f09d-447d-8275-c8084479d91e",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "6",
+    "Cookie": "csrftoken=vFuWkogRwOOFQtr7x6RN1Ehuqzfw53j80rguJxfeYUYv7FA8YNs79SmNNAlP2MBX; sessionid=boha3qpjw8mu2nbtb6p8nqapftqcf3lb"
+}
