@@ -4749,43 +4749,16 @@
 					"id": "26c228cd-0e50-4b64-800d-3b2fed9a9d63"
 				},
 				{
-					"name": "savr_delete_employee",
-					"id": "578834ab-1795-4538-bae0-4f1832b0a7b0",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "{{jwt_token}}",
-								"type": "text"
-							},
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text",
-								"disabled": true
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"employee_email\":\"bukola2112@assurdly.com\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/v1/savr/savr_delete_employee/"
-					},
-					"response": [
+					"name": "Delete Employee",
+					"item": [
 						{
-							"id": "4291f870-7c4f-401e-a4d3-f3f3cb7b894d",
-							"name": "Error - employee not in company",
-							"originalRequest": {
+							"name": "savr_delete_employee",
+							"id": "578834ab-1795-4538-bae0-4f1832b0a7b0",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
 								"method": "POST",
 								"header": [
 									{
@@ -4802,143 +4775,176 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com11\"\n}",
+									"raw": "{\n    \"employee_email\":\"bukola2112@assurdly.com\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
+								"url": "{{base_url}}/api/v1/savr/savr_delete_employee/"
 							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
+							"response": [
 								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
-								},
-								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 10:00:33 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "45"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
-						},
-						{
-							"id": "cc1e190e-b4cc-4358-89df-75add0871684",
-							"name": "success",
-							"originalRequest": {
-								"method": "POST",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "{{jwt_token}}",
-										"type": "text"
+									"id": "4291f870-7c4f-401e-a4d3-f3f3cb7b894d",
+									"name": "Error - employee not in company",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com11\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
 									},
-									{
-										"key": "Accept",
-										"value": "application/json",
-										"type": "text",
-										"disabled": true
-									}
-								],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com1\"\n}",
-									"options": {
-										"raw": {
-											"language": "json"
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:00:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
 										}
-									}
-								},
-								"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Server",
-									"value": "nginx/1.18.0 (Ubuntu)"
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
 								},
 								{
-									"key": "Date",
-									"value": "Tue, 03 Sep 2024 10:03:02 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Content-Length",
-									"value": "37"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Vary",
-									"value": "Accept, Cookie, Origin"
-								},
-								{
-									"key": "Allow",
-									"value": "POST, OPTIONS"
-								},
-								{
-									"key": "X-Frame-Options",
-									"value": "DENY"
-								},
-								{
-									"key": "Strict-Transport-Security",
-									"value": "max-age=60; includeSubDomains; preload"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
+									"id": "cc1e190e-b4cc-4358-89df-75add0871684",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com1\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:03:02 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "37"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"meaage\": [\n        \"Savr Employee Deleted!\"\n    ]\n}"
 								}
-							],
-							"cookie": [],
-							"responseTime": null,
-							"body": "{\n    \"meaage\": [\n        \"Savr Employee Deleted!\"\n    ]\n}"
+							]
 						}
-					]
+					],
+					"id": "fd3e80ef-5951-4d9d-90ee-1c7536abace0"
 				}
 			],
 			"id": "9bf00350-1085-42f7-914a-386ce700ad1a"
