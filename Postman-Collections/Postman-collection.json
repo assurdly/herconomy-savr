@@ -3449,7 +3449,7 @@
 									]
 								},
 								{
-									"name": "BVN Validation-Incorrect phone no digits",
+									"name": "BVN Validation-Mismatch last phone no digits",
 									"event": [
 										{
 											"listen": "test",
