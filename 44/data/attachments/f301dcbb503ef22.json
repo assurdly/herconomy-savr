@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "13abb4c8-f460-412b-bb38-20a818807877",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "49",
+    "Cookie": "messages=\"0f9fa1c23f46f2d816dd0caa8a0a2dd718270350$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as susana_lockman42.\\\"]]\"; csrftoken=YIASDIb5PcQ8WLkvjk1i3KkAVbffiMpj2oaxsl9AZfEUrPnk7JR0mdMPnRR3Wf2r; sessionid=msewh853r3nkxtqc6rxfna7w1q965xn9"
+}
