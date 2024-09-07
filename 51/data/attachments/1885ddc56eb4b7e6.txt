@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Bogisich - Kihn",
+    "gender":"male",
+	"first_name":"Esmeralda",               
+	"last_name": "Will",                 
+	"email":"Monroe_Roberts18@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
