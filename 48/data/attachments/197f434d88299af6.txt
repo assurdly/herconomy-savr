@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Pacocha, Russel and Streich",
+    "gender":"male",
+	"first_name":"Abbey",               
+	"last_name": "Gottlieb",                 
+	"email":"Lourdes.Block29@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
