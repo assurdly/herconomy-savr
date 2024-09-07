@@ -6421,7 +6421,7 @@
 							]
 						},
 						{
-							"name": "Change Password Copy",
+							"name": "Change Password-Same old and new password",
 							"id": "24337703-ec67-41c9-8db2-f1960be388a7",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
