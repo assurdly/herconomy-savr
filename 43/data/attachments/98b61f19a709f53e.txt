@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Balistreri - Stroman",
+    "gender":"male",
+	"first_name":"Wilburn",               
+	"last_name": "Ullrich",                 
+	"email":"Retha41@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT null",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "536dc22f-c562-470b-9ffd-7ebb4cf1e035",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "70",
+    "Cookie": "messages=\"a7176b68b4c6729c93a59001e408ab772f0f5d41$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as retha41.\\\"]]\"; csrftoken=9M6NPFi9RGVJmt6iqoZ1mgAx40VgUsLo48Qv1ZK6DddCRp9lF2NhGr4TCbBnhKLA; sessionid=rx23mro12yj7t66n2y9p5hz7uru0m1qk"
+}
