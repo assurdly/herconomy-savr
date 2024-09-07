@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "e5ed0411-654d-41c9-bcc6-b4f0673abfb7",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "221",
+    "Cookie": "messages=\"8991f833189efe3df5a1ff2689226e94ba4f4cee$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as tyra58.\\\"]]\"; csrftoken=IG9idufrdgkxsU9X3j6mJLOHL3qE33IQUq9IVV7eB78z1wKozGdVqHo4680ZPXZF; sessionid=1d5ng8czbbvbg3exafj2k8zu9drvfmej"
+}

@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Zemlak Inc",
+    "gender":"male",
+	"first_name":"Clare",               
+	"last_name": "Crona",                 
+	"email":"Tyra58@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
