@@ -6692,7 +6692,7 @@
 							]
 						},
 						{
-							"name": "Change Password-Same old and new password Copy",
+							"name": "Change Password-Empty Fields",
 							"event": [
 								{
 									"listen": "test",
