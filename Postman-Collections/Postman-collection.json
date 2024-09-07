@@ -4034,21 +4034,20 @@
 													"try {\r",
 													"    const jsonData = pm.response.json();\r",
 													"\r",
-													"    pm.test(\"Status code is 401\", function () {\r",
-													"        pm.response.to.have.status(401);\r",
+													"    pm.test(\"Status code is 403\", function () {\r",
+													"        pm.response.to.have.status(403);\r",
 													"    });\r",
 													"\r",
-													"    pm.test(\"Status code response is Unauthorized \", function () {\r",
-													"        pm.response.to.have.status('Unauthorized');\r",
+													"    pm.test(\"Status code response is  Forbidden \", function () {\r",
+													"        pm.response.to.have.status('Forbidden');\r",
 													"    });\r",
 													"\r",
 													"pm.test(\"Response body property\", function () {\r",
 													"    pm.expect(jsonData).to.be.an('object');\r",
-													"    pm.expect(jsonData.detail).to.be.a('string');\r",
 													"});\r",
 													"\r",
 													"    pm.test('Verify a valid data error response it returned', () => {\r",
-													"        pm.expect(jsonData.detail).eql( \"Authentication credentials were not provided.\")\r",
+													"        pm.expect(jsonData.detail).eql( \"Token expired/token invalid\")\r",
 													"    })\r",
 													"} catch (errors) {\r",
 													"    console.error(errors)\r",
@@ -4075,9 +4074,8 @@
 											},
 											{
 												"key": "Authorization",
-												"value": "JWT {{savrToken}}",
-												"type": "text",
-												"disabled": true
+												"value": "JWT {{JWT_TOKEN}}",
+												"type": "text"
 											}
 										],
 										"body": {
