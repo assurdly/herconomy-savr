@@ -1,9 +1,0 @@
-{
-    "first_name":"Lexus",
-    "last_name":"Senger",
-    "email":"Lamont.Cummings39@gmail.com",
-    "phone_number":"895-520-4842",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

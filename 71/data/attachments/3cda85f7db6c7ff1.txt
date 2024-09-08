@@ -1,1 +1,0 @@
-{"id":142,"admin_email":"abisola+8@assurdly.com","first_name":"Lexus","last_name":"Senger","email":"Lamont.Cummings39@gmail.com","phone_number":"895-520-4842","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T08:18:01.617901Z"}
