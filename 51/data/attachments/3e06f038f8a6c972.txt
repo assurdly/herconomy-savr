@@ -1,9 +1,0 @@
-{
-    "first_name":"Ajoke",
-    "last_name":"Bukky",
-    "email":"rasheedat+121@assurdly.com5@gmail.com",
-    "phone_number":"09224256129",
-    "employee_role":"COO",
-    "saving_amount": 120,
-    "saving_frequency":"monthly"
-}
