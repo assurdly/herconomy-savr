@@ -8495,11 +8495,16 @@
 										"key": "Authorization",
 										"value": "JWT {{savrToken}}",
 										"type": "text"
+									},
+									{
+										"key": "",
+										"value": "{{$randomPhoneNumber}}",
+										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"Ajoke\",\n    \"last_name\":\"Bukky\",\n    \"email\":\"rasheedat+121@assurdly.com5@gmail.com\",\n    \"phone_number\":\"09224256129\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 120,\n    \"saving_frequency\":\"monthly\"\n}",
+									"raw": "{\n    \"first_name\":\"{{$randomFirstName}}\",\n    \"last_name\":\"{{$randomLastName}}\",\n    \"email\":\"{{$randomEmail}}\",\n    \"phone_number\":\"{{$randomPhoneNumber}}\",\n    \"employee_role\":\"Frontend\",\n    \"saving_amount\": 200,\n    \"saving_frequency\":\"weekly\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
