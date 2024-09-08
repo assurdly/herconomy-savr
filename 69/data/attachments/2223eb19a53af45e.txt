@@ -1,0 +1,9 @@
+{
+    "first_name":"Verner",
+    "last_name":"Welch",
+    "email":"Zena_Ward@yahoo.com",
+    "phone_number":"509-823-3817",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
