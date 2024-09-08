@@ -1,0 +1,9 @@
+{
+    "first_name":"Candido",
+    "last_name":"Hagenes",
+    "email":"Susan.Nolan49@yahoo.com",
+    "phone_number":"790-607-3695",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

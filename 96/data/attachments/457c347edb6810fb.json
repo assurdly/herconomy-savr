@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT null",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "be73cbfc-1ba2-4034-9a87-b1c50f49f9dc",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "136",
+    "Cookie": "messages=\"bb4bceb1248db106e08180bdf0e13986aa744f06$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as nick.haley.\\\"]]\"; csrftoken=gnvJb1NIcuqz7Jh6sInYHNOhrSvQZPssVxzbGHzxtrVBCqb7ELE9oFsuecPqFDwt; sessionid=f219sau1t7p9jri7f92hk5yfr3ygqo7m"
+}
