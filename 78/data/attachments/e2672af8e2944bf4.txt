@@ -1,0 +1,9 @@
+{
+    "first_name":"Harvey",
+    "last_name":"Lehner",
+    "email":"Beau.Hoeger10@gmail.com",
+    "phone_number":"312-982-0409",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Moore - Gutkowski",
+    "gender":"male",
+	"first_name":"Jamil",               
+	"last_name": "Nikolaus",                 
+	"email":"Ruby98@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
