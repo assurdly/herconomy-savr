@@ -1,0 +1,1 @@
+{"id":167,"admin_email":"abisola+8@assurdly.com","first_name":"Annamae","last_name":"Huels","email":"Brad.Cassin@yahoo.com","phone_number":"946-830-1528","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T12:00:59.900062Z"}

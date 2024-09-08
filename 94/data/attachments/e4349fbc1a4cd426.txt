@@ -1,0 +1,9 @@
+{
+    "first_name":"Annamae",
+    "last_name":"Huels",
+    "email":"Brad.Cassin@yahoo.com",
+    "phone_number":"946-830-1528",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
