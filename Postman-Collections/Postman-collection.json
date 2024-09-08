@@ -9978,6 +9978,230 @@
 									"body": "{\n    \"message\": \"Employee Vault Deposit Initiated!\"\n}"
 								}
 							]
+						},
+						{
+							"name": "fund_savr_with_adminfloat_single Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aeb4222b-7fcf-4942-938b-d12e2bb71ddb",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 200\", function () {\r",
+											"        pm.response.to.have.status(200);\r",
+											"    });\r",
+											"    pm.test('Verify a sucess response is returned', () => {\r",
+											"        pm.expect(jsonData.messsage.eql(\"Employee Vault Deposit Initiated!\")\r",
+											"    })\r",
+											" pm.test(\"Status code name has string\", function () {\r",
+											" pm.response.to.have.status(\"OK\");\r",
+											"});\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.messsage).to.be.a('string');\r",
+											"        });\r",
+											"    \r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "2cb4c1ad-95a0-4dff-8cc8-967c3b26a180",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"employee_email\": \"Jimmy@mailinator.com\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+							},
+							"response": [
+								{
+									"id": "9fbc3b72-400d-4977-a686-02c956c2c72e",
+									"name": "error - employee not in company",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.come\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:06:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
+								},
+								{
+									"id": "1abd626f-9e96-4cd8-b9e8-beee53da2040",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.com\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/fund_savr_with_adminfloat_single/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:08:43 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "47"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": \"Employee Vault Deposit Initiated!\"\n}"
+								}
+							]
 						}
 					],
 					"id": "a0718f11-1a75-47ed-b25c-3464a5767bb7"
