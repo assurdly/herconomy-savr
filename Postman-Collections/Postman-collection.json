@@ -11597,17 +11597,20 @@
 											"try {\r",
 											"    const jsonData = pm.response.json();\r",
 											"\r",
-											"    pm.test(\"Status code is 200\", function () {\r",
-											"        pm.response.to.have.status(200);\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"pm.test(\"Status code name has string\", function () {\r",
+											"    pm.response.to.have.status(\"Bad Request\");\r",
+											"});\r",
 											"    });\r",
 											"\r",
 											"    pm.test(\"Verify a success response is returned\", function () {\r",
-											"        pm.expect(jsonData.meaage[0]).to.eql(\"Savr Employee Deleted!\");\r",
+											"        pm.expect(jsonData.message[0]).to.eql(\"Savr Employee Not in Company!\");\r",
 											"    });\r",
 											"\r",
 											"    pm.test(\"Response body property\", function () {\r",
 											"        pm.expect(jsonData).to.be.an('object');\r",
-											"        pm.expect(jsonData.meaage).to.be.an('array');\r",
+											"        pm.expect(jsonData.message).to.be.an('array');\r",
 											"    });\r",
 											"\r",
 											"} catch (errors) {\r",
@@ -11642,7 +11645,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"{{employeeemail}}\"\n}",
+									"raw": "{\n    \"employee_email\":\"Tenimmimailinator.co\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -11732,6 +11735,233 @@
 								},
 								{
 									"id": "c1bf249d-7241-4eba-bcf0-19340bcc2b66",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com1\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:03:02 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "37"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"meaage\": [\n        \"Savr Employee Deleted!\"\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "savr_delete_employee Copy 2",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "7b1f7d9b-634a-40df-8402-31328c3d196b",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"pm.test(\"Status code name has string\", function () {\r",
+											"    pm.response.to.have.status(\"Bad Request\");\r",
+											"});\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Verify a success response is returned\", function () {\r",
+											"        pm.expect(jsonData.message[0]).to.eql(\"Savr Employee Not in Company!\");\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.message).to.be.an('array');\r",
+											"    });\r",
+											"\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "4bfbebc6-04f1-459a-8beb-f4926512459f",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"employee_email\":\"Tenimmimailinator.co\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{base_url}}/api/v1/savr/savr_delete_employee/"
+							},
+							"response": [
+								{
+									"id": "f5be964a-2467-48b3-9334-d06809144ae0",
+									"name": "Error - employee not in company",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"oyeleye.anuoluwapo@yahoo.com11\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_delete_employee/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 10:00:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
+								},
+								{
+									"id": "868538c4-0f4a-4703-b154-1e0ec245db6d",
 									"name": "success",
 									"originalRequest": {
 										"method": "POST",
