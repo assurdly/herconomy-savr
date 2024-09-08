@@ -1,0 +1,9 @@
+{
+    "first_name":"Laurianne",
+    "last_name":"Bashirian",
+    "email":"Fidel_Collins@gmail.com",
+    "phone_number":"399-278-0974",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

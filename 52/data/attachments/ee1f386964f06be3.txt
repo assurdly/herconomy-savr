@@ -1,9 +1,0 @@
-{
-    "user_role": "COO",
-    "company_name":"Daetacity",
-    "gender":"male",
-    "group": "savr",
-    "email":"rasheedat+120@assurdly.com",    
-	"password1":"More@4me",            
-	"password2":"More@4me"         
-}
