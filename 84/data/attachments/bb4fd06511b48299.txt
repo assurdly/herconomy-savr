@@ -1,0 +1,9 @@
+{
+    "first_name":"Verla",
+    "last_name":"Feeney",
+    "email":"Adelbert_Stanton89@gmail.com",
+    "phone_number":"752-385-3249",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

@@ -1,0 +1,1 @@
+{"id":159,"admin_email":"abisola+8@assurdly.com","first_name":"Verla","last_name":"Feeney","email":"Adelbert_Stanton89@gmail.com","phone_number":"752-385-3249","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T10:32:33.773622Z"}

@@ -1,9 +1,0 @@
-{
-    "first_name":"Ashley",
-    "last_name":"Bednar",
-    "email":"Lila.Marks8@gmail.com",
-    "phone_number":"500-926-6715",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
