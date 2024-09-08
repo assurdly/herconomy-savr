@@ -1280,7 +1280,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"email\": \"abisola+8@assurdly.com\",       // Enter registered email\n\t\"password\":\"@Password2\"          // Enter Registered Password\n}"
+									"raw": "{\n\t\"email\": \"abisola+8@assurdly.com\",       // Enter registered email\n\t\"password\":\"Password5\"          // Enter Registered Password\n}"
 								},
 								"url": "{{base_url}}/api/v1/rest-auth/login/"
 							},
@@ -9422,7 +9422,7 @@
 							]
 						},
 						{
-							"name": "create_savr_employee - Existing Phone number Copy",
+							"name": "create_savr_employee - Empty fields",
 							"event": [
 								{
 									"listen": "test",
@@ -9446,7 +9446,7 @@
 											"});\r",
 											"\r",
 											"    pm.test('Verify a valid data error response it returned', () => {\r",
-											"        pm.expect(jsonData.message).eql([\"User with phone number already exist\"])\r",
+											"        pm.expect(jsonData.message).eql([ \"All fields are required\"])\r",
 											"    })\r",
 											"} catch (errors) {\r",
 											"    console.error(errors)\r",
@@ -9485,7 +9485,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"Shola\",\n    \"last_name\":\"Funke\",\n    \"email\":\"Funke@mailinator.com\",\n    \"phone_number\":\"+2347069068701\",\n    \"employee_role\":\"HOD\",\n    \"saving_amount\": 200,\n    \"saving_frequency\":\"weekly\"\n}",
+									"raw": "{\n    \"first_name\":\"\",\n    \"last_name\":\"\",\n    \"email\":\"\",\n    \"phone_number\":\"\",\n    \"employee_role\":\"\",\n    \"saving_amount\": null,\n    \"saving_frequency\":\"\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -9507,8 +9507,7 @@
 									"query": [
 										{
 											"key": "Authorization",
-											"value": "JWT {{savrToken}}",
-											"type": "text"
+											"value": "JWT {{savrToken}}"
 										}
 									]
 								}
