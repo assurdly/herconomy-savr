@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Beier Inc",
+    "gender":"male",
+	"first_name":"Otilia",               
+	"last_name": "Runolfsdottir",                 
+	"email":"Aracely55@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
