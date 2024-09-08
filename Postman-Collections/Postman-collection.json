@@ -8686,8 +8686,8 @@
 										"exec": [
 											"try {\r",
 											"    const jsonData = pm.response.json();\r",
-											"    const employeeid = jsonData.id;\r",
-											"    pm.environment.set(\"employeeID\", employeeid);\r",
+											"    const employeee_email = jsonData.email;\r",
+											"    pm.environment.set(\"employeeemail\", employeee_email);\r",
 											"\r",
 											"    pm.test(\"Status code is 201\", function () {\r",
 											"        pm.response.to.have.status(201);\r",
