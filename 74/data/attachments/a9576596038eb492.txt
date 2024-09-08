@@ -1,0 +1,1 @@
+{"id":144,"admin_email":"abisola+8@assurdly.com","first_name":"Miller","last_name":"Klocko","email":"Mona_Boyle@yahoo.com","phone_number":"893-781-2158","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T09:28:47.942166Z"}

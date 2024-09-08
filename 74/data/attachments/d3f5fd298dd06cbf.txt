@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Rohan - Cummerata",
+    "gender":"male",
+	"first_name":"Misael",               
+	"last_name": "Denesik",                 
+	"email":"Oran34@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
