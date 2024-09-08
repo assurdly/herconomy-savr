@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Wisozk Group",
+    "gender":"male",
+	"first_name":"Kaelyn",               
+	"last_name": "King",                 
+	"email":"Tamara.Kub@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
