@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Bartell Group",
+    "gender":"male",
+	"first_name":"Dillan",               
+	"last_name": "Fay",                 
+	"email":"Kennedi17@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
