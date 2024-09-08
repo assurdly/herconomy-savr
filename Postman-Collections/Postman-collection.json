@@ -8467,7 +8467,7 @@
 					]
 				},
 				{
-					"name": "savr_dashboard_summary Copy",
+					"name": "savr_dashboard_summary-No Auth",
 					"event": [
 						{
 							"listen": "test",
