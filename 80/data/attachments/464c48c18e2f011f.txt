@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Reichert, Skiles and Rogahn",
+    "gender":"male",
+	"first_name":"Melisa",               
+	"last_name": "Franecki",                 
+	"email":"Jeromy.Macejkovic71@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
