@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Fisher, Waelchi and Corwin",
+    "gender":"male",
+	"first_name":"Kyle",               
+	"last_name": "Kuhic",                 
+	"email":"Michaela_Gutmann55@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
