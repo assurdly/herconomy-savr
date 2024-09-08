@@ -11374,7 +11374,7 @@
 								"header": [
 									{
 										"key": "Authorization",
-										"value": "{{jwt_token}}",
+										"value": "JWT {{savrToken}}",
 										"type": "text"
 									},
 									{
@@ -11386,7 +11386,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"bukola2112@assurdly.com\"\n}",
+									"raw": "{\n    \"employee_email\":\"{{employeeemail}}\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
