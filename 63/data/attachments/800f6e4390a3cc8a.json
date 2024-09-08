@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "f82c0022-f996-4799-9355-1f4e7978b329",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "116",
+    "Cookie": "messages=\"4c20efa5f4c51a021331d9b35a904814e71e3504$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as lurline_bashirian56.\\\"]]\"; csrftoken=olCvsL1BFTIz1B5aXiBb4XQikM1TNc6DVB0v52LLZgwIe41K1VDz4MWWH2KEQdA1; sessionid=gtmc51uvt9mxin8c0p3smfxzkt52p0ot"
+}
