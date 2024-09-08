@@ -8150,12 +8150,13 @@
 									{
 										"key": "Authorization",
 										"value": "JWT {{savrToken}}",
-										"type": "text"
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"ajidagbarasheedat95@gmail.com\"\n}"
+									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"abisola+8@assurdly.com\"\n}"
 								},
 								"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
 							},
@@ -8230,6 +8231,172 @@
 								},
 								{
 									"id": "7b9c76cb-9e9a-4e60-ac3c-9916827290a8",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\":\"ugokingsley5@gmail.com\"\n}"
+										},
+										"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 08:48:36 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "35"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"detail\": \"Verification code sent\"\n}"
+								}
+							]
+						},
+						{
+							"name": "Password Reset Copy",
+							"id": "69c5584e-34fd-49c8-a0fd-f283f3d39a68",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"abisola+8@assurdly.com\"\n}"
+								},
+								"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
+							},
+							"response": [
+								{
+									"id": "05e766b8-37a5-41e5-9448-644b437e32c6",
+									"name": "Invalid Email",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"email\":\"ugokingsley5@gmail.com\"\n}"
+										},
+										"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Date",
+											"value": "Fri, 27 Oct 2023 08:46:33 GMT"
+										},
+										{
+											"key": "Server",
+											"value": "WSGIServer/0.2 CPython/3.8.7"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Content-Length",
+											"value": "31"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"email\": \"Email doesn't exist\"\n}"
+								},
+								{
+									"id": "a6ee4d5d-f9ce-4c70-b3ea-f8341c6359bc",
 									"name": "success",
 									"originalRequest": {
 										"method": "POST",
