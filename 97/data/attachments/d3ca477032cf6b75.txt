@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Schroeder, Gibson and Grimes",
+    "gender":"male",
+	"first_name":"Ottilie",               
+	"last_name": "Heidenreich",                 
+	"email":"Fletcher.Kertzmann16@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
