@@ -9117,7 +9117,7 @@
 											"});\r",
 											"\r",
 											"    pm.test('Verify a valid data error response it returned', () => {\r",
-											"        pm.expect(jsonData.message).eql([\"Savr Employee Exists!\"])\r",
+											"        pm.expect(jsonData.message).eql([\"User with phone number already exist\"])\r",
 											"    })\r",
 											"} catch (errors) {\r",
 											"    console.error(errors)\r",
@@ -9156,14 +9156,33 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"first_name\":\"Shola\",\n    \"last_name\":\"Funke\",\n    \"email\":\"kassia@mailinator.com\",\n    \"phone_number\":\"080678976432\",\n    \"employee_role\":\"HOD\",\n    \"saving_amount\": 200,\n    \"saving_frequency\":\"weekly\"\n}",
+									"raw": "{\n    \"first_name\":\"Shola\",\n    \"last_name\":\"Funke\",\n    \"email\":\"Funke@mailinator.com\",\n    \"phone_number\":\"+2347069068701\",\n    \"employee_role\":\"HOD\",\n    \"saving_amount\": 200,\n    \"saving_frequency\":\"weekly\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{base_url}}/api/v1/savr/create_savr_employee/"
+								"url": {
+									"raw": "{{base_url}}/api/v1/savr/create_savr_employee/?Authorization=JWT {{savrToken}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"savr",
+										"create_savr_employee",
+										""
+									],
+									"query": [
+										{
+											"key": "Authorization",
+											"value": "JWT {{savrToken}}",
+											"type": "text"
+										}
+									]
+								}
 							},
 							"response": [
 								{
@@ -9324,6 +9343,335 @@
 								},
 								{
 									"id": "fb5eda1f-8640-4793-a9a3-e3ea8eaf3630",
+									"name": "Error - savr employee exists",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:39:29 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "37"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Exists!\"\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "create_savr_employee - Existing Phone number Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "7a94c349-673b-4a38-b158-d78195f33118",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code response is Bad Request \", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body has property 'message'\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"message\");\r",
+											"    pm.expect(jsonData.message).to.be.an(\"array\");\r",
+											"});\r",
+											"\r",
+											"    pm.test('Verify a valid data error response it returned', () => {\r",
+											"        pm.expect(jsonData.message).eql([\"User with phone number already exist\"])\r",
+											"    })\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "729063f9-76b1-4da7-9999-77fc118aaaab",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{jwt_token}}",
+										"type": "text",
+										"disabled": true
+									},
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
+									},
+									{
+										"key": "",
+										"value": "{{$randomPhoneNumber}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"first_name\":\"Shola\",\n    \"last_name\":\"Funke\",\n    \"email\":\"Funke@mailinator.com\",\n    \"phone_number\":\"+2347069068701\",\n    \"employee_role\":\"HOD\",\n    \"saving_amount\": 200,\n    \"saving_frequency\":\"weekly\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/api/v1/savr/create_savr_employee/?Authorization=JWT {{savrToken}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"savr",
+										"create_savr_employee",
+										""
+									],
+									"query": [
+										{
+											"key": "Authorization",
+											"value": "JWT {{savrToken}}",
+											"type": "text"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "d8bd6998-e2e9-4b26-a053-816ebed6de3d",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:41:11 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "275"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"id\": 120,\n    \"admin_email\": \"ugokingsley5@gmail.com\",\n    \"first_name\": \"bola\",\n    \"last_name\": \"John\",\n    \"email\": \"oyeleye.anuoluwapo@yahoo.com1\",\n    \"phone_number\": \"09224256109\",\n    \"saving_amount\": \"5,000.0\",\n    \"saving_frequency\": \"monthly\",\n    \"employee_role\": [\n        3\n    ],\n    \"created_at\": \"2024-09-03T10:41:06.454027Z\"\n}"
+								},
+								{
+									"id": "9addc1de-4486-4bb3-91e1-edc445a0a2db",
+									"name": "success - existing user",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"first_name\":\"bola\",\n    \"last_name\":\"John\",\n    \"email\":\"oyeleye.anuoluwapo@yahoo.com\",\n    \"phone_number\":\"09224256109\",\n    \"employee_role\":\"COO\",\n    \"saving_amount\": 5000,\n    \"saving_frequency\":\"monthly\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/create_savr_employee/"
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:37:17 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "46"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"User Exists, Created Employee!\"\n    ]\n}"
+								},
+								{
+									"id": "ff365b2e-d068-4e68-9845-bcaa4797d6e7",
 									"name": "Error - savr employee exists",
 									"originalRequest": {
 										"method": "POST",
