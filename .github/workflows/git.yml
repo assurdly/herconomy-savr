@@ -121,7 +121,7 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_CHANNEL: 'C070KUKPDLZ'
           SLACK_MESSAGE: |
-            *Herconomy - API Quality Readiness*
+            *Herconomy-savr - API Quality Readiness*
             *Contributors - Abisola Oyedotun, Rasheedat Ajidagba*
             Status: ${{ job.status }}
             Passing Tests: ${{ steps.parse_json.outputs.passing_percentage }}%
