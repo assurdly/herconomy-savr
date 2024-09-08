@@ -8309,6 +8309,43 @@
 			"item": [
 				{
 					"name": "savr_dashboard_summary",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "28a63b45-ec32-4a73-a099-d30bee4b0314",
+								"exec": [
+									"try {\r",
+									"    const jsonData = pm.response.json();\r",
+									"\r",
+									"    pm.test(\"Status code is 200\", function () {\r",
+									"        pm.response.to.have.status(200);\r",
+									"    });\r",
+									"\r",
+									" pm.test(\"Status code name has string\", function () {\r",
+									" pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"    pm.test(\"Response body property\", function () {\r",
+									"        pm.expect(jsonData).to.be.an('object');\r",
+									"        pm.expect(jsonData.admin_employee_dep).to.be.an('array');\r",
+									"         pm.expect(jsonData.admin_employee_list).to.be.an('array');\r",
+									"        });\r",
+									"    pm.test(\"Verify the following information is returned in the responseBody\", function () {\r",
+									"         pm.expect(pm.response.text()).to.include(\"admin_total_dep\");\r",
+									"          pm.expect(pm.response.text()).to.include(\"admin_employee_count\");\r",
+									"        pm.expect(pm.response.text()).to.include(\"admin_employee_dep\");\r",
+									"        pm.expect(pm.response.text()).to.include(\"admin_employee_list\");\r",
+									"    });\r",
+									"} catch (errors) {\r",
+									"    console.error(errors)\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
 					"id": "f0401294-f15b-4a9b-99a9-94d7caacd04e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true,
@@ -8343,6 +8380,165 @@
 					"response": [
 						{
 							"id": "9505e525-340f-438f-9ecd-9717891c2f2a",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "{{jwt_token}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{staging_base_url}}/api/v1/savr/savr_dashboard_summary/"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "nginx/1.18.0 (Ubuntu)"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 31 Jul 2024 13:39:18 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1494"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept, Cookie, Origin"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, HEAD, OPTIONS"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Expires",
+									"value": "Wed, 31 Jul 2024 13:49:18 GMT"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "max-age=600"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=60; includeSubDomains; preload"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"admin_total_dep\": 160,\n    \"admin_employee_count\": 1,\n    \"admin_employee_dep\": [\n        {\n            \"savr_admin\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n            \"savr_user\": \"b9a869a3-5b7f-4e39-b259-25d483f86be9\",\n            \"amount\": \"10.00\",\n            \"channel\": \"savrwallet\",\n            \"status\": \"success\",\n            \"deposit_type\": \"quick-save\",\n            \"trans_ref\": \"HERCSAVR20240731172242869009121\",\n            \"created_at\": \"2024-07-31T13:24:50.092134Z\"\n        },\n        {\n            \"savr_admin\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n            \"savr_user\": \"55ee58d9-9dcf-4000-9dc2-13c5827d31ca\",\n            \"amount\": \"50.00\",\n            \"channel\": \"savrwallet\",\n            \"status\": \"success\",\n            \"deposit_type\": \"quick-save\",\n            \"trans_ref\": \"HERCSAVR202407311722419767969638\",\n            \"created_at\": \"2024-07-31T10:56:07.970226Z\"\n        },\n        {\n            \"savr_admin\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n            \"savr_user\": \"ed4c89f1-02cf-4bcd-841a-dc491c3aacad\",\n            \"amount\": \"50.00\",\n            \"channel\": \"savrwallet\",\n            \"status\": \"success\",\n            \"deposit_type\": \"quick-save\",\n            \"trans_ref\": \"HERCSAVR202407311722419756412695\",\n            \"created_at\": \"2024-07-31T10:55:56.413265Z\"\n        },\n        {\n            \"savr_admin\": \"5066e37a-a12d-4e22-92c1-a0c0cdd84797\",\n            \"savr_user\": \"a55d7645-085f-44f6-9b17-a80a52b3f0da\",\n            \"amount\": \"50.00\",\n            \"channel\": \"savrwallet\",\n            \"status\": \"success\",\n            \"deposit_type\": \"quick-save\",\n            \"trans_ref\": \"HERCSAVR202407311722419238934068\",\n            \"created_at\": \"2024-07-31T10:47:18.934987Z\"\n        }\n    ],\n    \"admin_employee_list\": [\n        {\n            \"id\": 102,\n            \"admin_email\": \"ugokingsley5@gmail.com\",\n            \"first_name\": \"bola\",\n            \"last_name\": \"John\",\n            \"email\": \"kingsleydaeta@gmail.com\",\n            \"phone_number\": \"09024256109\",\n            \"saving_amount\": \"5000.00\",\n            \"saving_frequency\": \"monthly\",\n            \"employee_role\": [\n                3\n            ],\n            \"created_at\": \"2024-07-31T11:21:56.139359Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "savr_dashboard_summary Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "28a63b45-ec32-4a73-a099-d30bee4b0314",
+								"exec": [
+									"try {\r",
+									"    const jsonData = pm.response.json();\r",
+									"\r",
+									"    pm.test(\"Status code is 200\", function () {\r",
+									"        pm.response.to.have.status(200);\r",
+									"    });\r",
+									"\r",
+									" pm.test(\"Status code name has string\", function () {\r",
+									" pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"    pm.test(\"Response body property\", function () {\r",
+									"        pm.expect(jsonData).to.be.an('object');\r",
+									"        pm.expect(jsonData.admin_employee_dep).to.be.an('array');\r",
+									"         pm.expect(jsonData.admin_employee_list).to.be.an('array');\r",
+									"        });\r",
+									"    pm.test(\"Verify the following information is returned in the responseBody\", function () {\r",
+									"         pm.expect(pm.response.text()).to.include(\"admin_total_dep\");\r",
+									"          pm.expect(pm.response.text()).to.include(\"admin_employee_count\");\r",
+									"        pm.expect(pm.response.text()).to.include(\"admin_employee_dep\");\r",
+									"        pm.expect(pm.response.text()).to.include(\"admin_employee_list\");\r",
+									"    });\r",
+									"} catch (errors) {\r",
+									"    console.error(errors)\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "71143e6e-8227-4009-8582-0aa5856e2686",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{jwt_token}}",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "JWT {{savrToken}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/api/v1/savr/savr_dashboard_summary/"
+					},
+					"response": [
+						{
+							"id": "464278e6-cdc1-429c-baa8-7989a6bf9c66",
 							"name": "success",
 							"originalRequest": {
 								"method": "GET",
