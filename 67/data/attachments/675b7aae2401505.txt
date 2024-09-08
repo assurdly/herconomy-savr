@@ -1,9 +1,0 @@
-{
-    "first_name":"Gilberto",
-    "last_name":"Rice",
-    "email":"Devyn_Funk47@gmail.com",
-    "phone_number":"625-549-3746",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

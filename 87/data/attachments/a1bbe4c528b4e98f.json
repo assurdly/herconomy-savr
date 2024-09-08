@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU4NzQ5NzUsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1Nzg4NTc1fQ.jCWWbeMe5LAtEmYJRcT00WeIXJ7U0rDVbrECbdjAxIM",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "379a7688-491f-4529-bfce-89af796ea9f5",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "116",
+    "Cookie": "messages=\"857708a23a206220b091c77aaf861a924b40e040$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as eladio.fahey68.\\\"]]\"; csrftoken=MxChu9MFSdPEtxfPJnG3PAnjTJrAlpkhy6Fx5aOKantzNmrhgVW94wygoipDpIai; sessionid=5itevnkni2vpk3tp2ktjzc9xmn2zaqhk"
+}
