@@ -1,0 +1,9 @@
+{
+    "first_name":"Catharine",
+    "last_name":"Hilll",
+    "email":"Zackery.Heller82@hotmail.com",
+    "phone_number":"317-902-3855",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
