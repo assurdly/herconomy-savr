@@ -1,0 +1,1 @@
+{"id":166,"admin_email":"abisola+8@assurdly.com","first_name":"Lori","last_name":"Strosin","email":"Kenyatta_Gorczany@gmail.com","phone_number":"293-466-6454","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T11:55:01.124129Z"}

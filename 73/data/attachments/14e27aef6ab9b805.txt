@@ -1,9 +1,0 @@
-{
-    "first_name":"Akeem",
-    "last_name":"Walker",
-    "email":"Marjory_Bayer@yahoo.com",
-    "phone_number":"914-720-9893",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

@@ -1,0 +1,9 @@
+{
+    "first_name":"Lori",
+    "last_name":"Strosin",
+    "email":"Kenyatta_Gorczany@gmail.com",
+    "phone_number":"293-466-6454",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
