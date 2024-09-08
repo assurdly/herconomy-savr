@@ -1,0 +1,1 @@
+{"id":154,"admin_email":"abisola+8@assurdly.com","first_name":"Zoe","last_name":"Okuneva","email":"Coralie.Schmeler@hotmail.com","phone_number":"573-434-2428","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T10:14:45.881064Z"}

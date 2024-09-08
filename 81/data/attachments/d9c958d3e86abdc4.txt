@@ -1,0 +1,9 @@
+{
+    "first_name":"Shola",
+    "last_name":"Funke",
+    "email":"kassia@mailinator.com",
+    "phone_number":"080678976432",
+    "employee_role":"HOD",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

@@ -1,0 +1,4 @@
+{
+    "employee_email":"Jimmy@mailinator.com",
+    "saving_amount": 4
+}

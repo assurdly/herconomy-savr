@@ -1,0 +1,9 @@
+{
+    "first_name":"Zoe",
+    "last_name":"Okuneva",
+    "email":"Coralie.Schmeler@hotmail.com",
+    "phone_number":"573-434-2428",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
