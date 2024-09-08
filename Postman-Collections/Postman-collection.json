@@ -11814,7 +11814,7 @@
 							]
 						},
 						{
-							"name": "savr_delete_employee Copy 2",
+							"name": "savr_delete_employee -No Auth",
 							"event": [
 								{
 									"listen": "test",
