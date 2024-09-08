@@ -9757,6 +9757,38 @@
 					"item": [
 						{
 							"name": "fund_savr_with_adminfloat_single",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "aeb4222b-7fcf-4942-938b-d12e2bb71ddb",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 200\", function () {\r",
+											"        pm.response.to.have.status(200);\r",
+											"    });\r",
+											"    pm.test('Verify a sucess response is returned', () => {\r",
+											"        pm.expect(jsonData.messsage.eql(\"Employee Vault Deposit Initiated!\")\r",
+											"    })\r",
+											" pm.test(\"Status code name has string\", function () {\r",
+											" pm.response.to.have.status(\"OK\");\r",
+											"});\r",
+											"    pm.test(\"Response body property\", function () {\r",
+											"        pm.expect(jsonData).to.be.an('object');\r",
+											"        pm.expect(jsonData.messsage).to.be.a('string');\r",
+											"        });\r",
+											"    \r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "95df08e9-bf34-44ee-89ea-7fb52f08a9f8",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true,
@@ -9767,7 +9799,7 @@
 								"header": [
 									{
 										"key": "Authorization",
-										"value": "{{jwt_token}}",
+										"value": "JWT {{savrToken}}",
 										"type": "text"
 									},
 									{
@@ -9779,7 +9811,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\": \"kingsleydaeta@gmail.com\"\n}",
+									"raw": "{\n    \"employee_email\": \"Jimmy@mailinator.com\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
