@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "f11bac51-971c-45fe-bdcf-d2a5a51a66a9",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "111",
+    "Cookie": "messages=\"479d5bbf0ea7fd3e9671c8d310f1fc3e63e9a483$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as elnora_waelchi.\\\"]]\"; csrftoken=qFDfnDyOKeP625Utp5WJLklPeBVA7TBN5h7AmG4SyYDuo54XhwuEfY1GniKIjbRq; sessionid=pom22p2dwp807slz9um7l1a8lyp3ko1m"
+}
