@@ -1,0 +1,9 @@
+{
+    "first_name":"Shola",
+    "last_name":"Funke",
+    "email":"Funke@mailinator.com",
+    "phone_number":"+2347069068701",
+    "employee_role":"HOD",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

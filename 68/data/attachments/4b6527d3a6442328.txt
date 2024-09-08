@@ -1,9 +1,0 @@
-{
-    "first_name":"Isabel",
-    "last_name":"Feil",
-    "email":"Romaine.Skiles@yahoo.com",
-    "phone_number":"776-525-9533",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

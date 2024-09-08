@@ -1,0 +1,1 @@
+{"id":162,"admin_email":"abisola+8@assurdly.com","first_name":"Floyd","last_name":"Littel","email":"Daisha58@yahoo.com","phone_number":"928-534-4684","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T10:47:40.687379Z"}
