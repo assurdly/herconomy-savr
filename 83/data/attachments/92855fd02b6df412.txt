@@ -1,0 +1,17 @@
+try {
+    const jsonData = pm.response.json();
+
+    pm.test("Status code is 200", function () {
+        pm.response.to.have.status(200);
+    });
+
+ pm.test("Status code name has string", function () {
+ pm.response.to.have.status("OK");
+});
+    pm.test("Response body property", function () {
+        pm.expect(jsonData).to.be.an('array');
+        });
+    
+} catch (errors) {
+    console.error(errors)
+}

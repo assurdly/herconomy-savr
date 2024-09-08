@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "2731af13-8c5f-4c1b-b589-ae200b5df718",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "279",
+    "Cookie": "messages=\"01ca531978655aca20654c4b5390db19a17d2f7d$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as zula_nienow.\\\"]]\"; csrftoken=9ETyA08R9GcAgLLxcKbVT70mXswPJPZTVqnlR4qNipaxCAxUAduJvSrjdg1Gn9vN; sessionid=vs4r3mjtkviy7s7fgsdk8nhf4061xs5p"
+}

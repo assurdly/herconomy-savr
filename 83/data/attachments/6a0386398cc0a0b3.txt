@@ -1,0 +1,9 @@
+{
+    "first_name":"Johnathon",
+    "last_name":"Batz",
+    "email":"Claudine.Kuhn3@gmail.com",
+    "phone_number":"898-556-2817",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
