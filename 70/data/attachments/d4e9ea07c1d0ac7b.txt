@@ -1,0 +1,9 @@
+{
+    "first_name":"Don",
+    "last_name":"Jakubowski",
+    "email":"Alfreda_Gulgowski98@gmail.com",
+    "phone_number":"710-905-2716",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

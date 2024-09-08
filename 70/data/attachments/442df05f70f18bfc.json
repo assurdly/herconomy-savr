@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU4NjU3OTUsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1Nzc5Mzk1fQ.94s24Bpps2jhcBuzDEjDx9HaTWsohoIaTLZcH-Ua06M",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "3f0a4861-810c-42a4-8a8f-27f847fcf27d",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "133",
+    "Cookie": "messages=\"fbc00ae24ac9bd3b9c94332a93e8e97b6ce7cf3c$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as justyn.lind.\\\"]]\"; csrftoken=aA2wBD3APZdMtbBRHXU8XBXi5mRYYg2hfCnZG2so9UhdLSug2Wu3JJHsSGp4andR; sessionid=e1sc4jlek5isqgj5lytmmqwawc9cw5cf"
+}

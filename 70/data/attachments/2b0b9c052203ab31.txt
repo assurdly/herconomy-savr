@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Ledner and Sons",
+    "gender":"male",
+	"first_name":"Jamie",               
+	"last_name": "Lind",                 
+	"email":"Justyn.Lind@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
