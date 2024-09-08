@@ -1,0 +1,9 @@
+{
+    "first_name":"Gia",
+    "last_name":"Sanford",
+    "email":"Randall_Grant@hotmail.com",
+    "phone_number":"651-679-5916",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

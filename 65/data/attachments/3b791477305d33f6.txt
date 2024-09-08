@@ -1,9 +1,0 @@
-{
-    "first_name":"Dorothea",
-    "last_name":"MacGyver",
-    "email":"Libbie51@yahoo.com",
-    "phone_number":"414-378-4933",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

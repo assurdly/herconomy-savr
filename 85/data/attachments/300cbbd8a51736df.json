@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU4NzQ0MzYsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1Nzg4MDM2fQ.QIOrarEAGj0wn250VLzDDSrwHW4kGCafza0P3TRgQGs",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "7560302c-414f-4fee-bbae-cbac3e657858",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "45",
+    "Cookie": "messages=\"e4293afcb9d224d42959436e1de4cdd987ca1d8a$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as merl_cole.\\\"]]\"; csrftoken=wH6LvClnFyxjGbqYDiSE0oU8pO4bCG0U2r2iqViHf4e0EMJoW7EIYwGKfeaO5SXt; sessionid=ic5gr545r3r759whu1qb1oo2paswuigd"
+}

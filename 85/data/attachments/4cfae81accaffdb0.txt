@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Crist Inc",
+    "gender":"male",
+	"first_name":"Delfina",               
+	"last_name": "Gulgowski",                 
+	"email":"Merl_Cole@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
