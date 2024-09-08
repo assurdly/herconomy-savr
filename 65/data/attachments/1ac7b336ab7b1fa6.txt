@@ -1,0 +1,9 @@
+{
+    "first_name":"Romaine",
+    "last_name":"Lemke",
+    "email":"Bobby49@gmail.com",
+    "phone_number":"206-612-6598",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
