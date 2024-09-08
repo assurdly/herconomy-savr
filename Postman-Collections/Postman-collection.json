@@ -8300,7 +8300,41 @@
 							]
 						},
 						{
-							"name": "Password Reset Copy",
+							"name": "Password Reset-Inexisting Email",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c3ded631-6bea-4e20-b9ed-2ba4727173e3",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code response is Bad Request \", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body has property 'email'\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"email\");\r",
+											"    pm.expect(jsonData.email).to.be.a(\"string\");\r",
+											"    });\r",
+											"     pm.test('Verify a valid data error response it returned', () => {\r",
+											"        pm.expect(jsonData.email).eql(\"Email doesn't exist\")\r",
+											"});\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
 							"id": "69c5584e-34fd-49c8-a0fd-f283f3d39a68",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -8315,14 +8349,14 @@
 									},
 									{
 										"key": "Authorization",
-										"value": "JWT {{savrToken}}",
+										"value": "",
 										"type": "text",
 										"disabled": true
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"abisola+8@assurdly.com\"\n}"
+									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"coco@mailinaor.com\"\n}"
 								},
 								"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
 							},
