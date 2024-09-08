@@ -1,0 +1,9 @@
+{
+    "first_name":"Ara",
+    "last_name":"Feil",
+    "email":"Tianna_Johns10@gmail.com",
+    "phone_number":"894-468-3689",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
