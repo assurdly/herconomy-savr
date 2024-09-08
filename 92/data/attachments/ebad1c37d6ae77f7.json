@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "03367ba6-13ab-4077-9744-85851e8d1275",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "209",
+    "Cookie": "messages=\"3d65761f402e15836fefc8bca9aba1fe87f6c12e$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as haskell.west84.\\\"]]\"; csrftoken=cCr25g9leF1EUledaoeyV1vcF33dKutfRxXN7O38CH3eTfkunPG8XBQhGG750hW6; sessionid=irvzgdrgtuwg56vewdsb8dul0vsqah5d"
+}

@@ -1,1 +1,0 @@
-{"message":["For security reasons, you can only be logged in from one device at a time. You will be automatically logged out from this session"],"status":"MULTIPLE LOGIN DETECTED"}

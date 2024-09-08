@@ -1,0 +1,9 @@
+{
+    "first_name":"Sarah",
+    "last_name":"Hickle",
+    "email":"Elody_Ritchie92@gmail.com",
+    "phone_number":"825-329-9421",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

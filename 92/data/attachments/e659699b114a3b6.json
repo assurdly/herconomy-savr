@@ -1,0 +1,14 @@
+{
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU4Nzc5MTYsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1NzkxNTE2fQ.6Ef76Pj69oIC1twJU7AuloWo-Zt2oO7rKpYuawuXI2c",
+    "": "905-949-3542",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "054be923-bccf-4795-8a26-0e834192b8d1",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "160",
+    "Cookie": "messages=\"3d65761f402e15836fefc8bca9aba1fe87f6c12e$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as haskell.west84.\\\"]]\"; csrftoken=qhyR5vpfhFfzwV2kTPBlRLps61UDbTvDAflI3JmzZ1QaRMKevbtAqVK6RYacHuJV; sessionid=acn5s2151kylyn5kjawhv1n0yqj19rnd"
+}
