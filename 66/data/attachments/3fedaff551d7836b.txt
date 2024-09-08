@@ -1,0 +1,9 @@
+{
+    "first_name":"Wellington",
+    "last_name":"Willms",
+    "email":"Kaylie.Padberg79@hotmail.com",
+    "phone_number":"272-936-6790",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

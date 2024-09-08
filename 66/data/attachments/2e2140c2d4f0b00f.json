@@ -1,0 +1,14 @@
+{
+    "Authorization": "JWT ",
+    "": "797-437-2673",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "5678a0ff-0701-42ee-b9b3-3bde1a2d8006",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "211",
+    "Cookie": "messages=\"5da0df0d843df9a8e060a59791eda41e00c3c30e$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as dane_pfeffer.\\\"]]\"; csrftoken=4C4rsjn57B2f0chx9S1kBqpH3Y7Wir8IYO87LZu976iEqSY9La7UYtEurp9gdenJ; sessionid=f2l0by3g7qnntctaibb943kz0w4vgbw2"
+}

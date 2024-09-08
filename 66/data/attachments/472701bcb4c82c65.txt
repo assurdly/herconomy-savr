@@ -1,0 +1,9 @@
+{
+    "first_name":"Jordi",
+    "last_name":"Koch",
+    "email":"Einar36@gmail.com",
+    "phone_number":"452-899-3087",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
