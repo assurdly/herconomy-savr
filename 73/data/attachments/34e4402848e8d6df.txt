@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Hegmann, Powlowski and Kozey",
+    "gender":"male",
+	"first_name":"Violet",               
+	"last_name": "Schmeler",                 
+	"email":"Calista.Reichert67@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

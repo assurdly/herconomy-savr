@@ -1,0 +1,1 @@
+{"id":143,"admin_email":"abisola+8@assurdly.com","first_name":"Akeem","last_name":"Walker","email":"Marjory_Bayer@yahoo.com","phone_number":"914-720-9893","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T08:33:02.425370Z"}
