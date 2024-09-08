@@ -1,0 +1,1 @@
+{"id":164,"admin_email":"abisola+8@assurdly.com","first_name":"Cordell","last_name":"Rice","email":"Vivien.Nader@gmail.com","phone_number":"898-402-8144","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T11:06:10.024074Z"}

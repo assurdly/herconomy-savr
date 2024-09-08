@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODIwYjkzNDctYWMyNC00MjBiLTk3YzQtMmFkNWRjYjJhMmJiIiwidXNlcm5hbWUiOiJhYmlzb2xhKzgiLCJleHAiOjE3MjU4NzYyNTYsImVtYWlsIjoiYWJpc29sYSs4QGFzc3VyZGx5LmNvbSIsIm9yaWdfaWF0IjoxNzI1Nzg5ODU2fQ.8Q4Dz65S3O00g0IRxEgdWWLfVkwRq76CVnw5CjfHMg8",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "df8bc418-f4ae-4f93-a27b-aeb2c2d97df2",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "73",
+    "Cookie": "messages=\"7eca33ce80f8662f0e00f44e838dfef70080d3f6$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as eve.gottlieb.\\\"]]\"; csrftoken=p77G7TMLb1j3lZmwwc7aAeNHYCf0GbnieZ1BiE2MJvkRrHtwpmzY5e0TuzRa3UKv; sessionid=bcjj618ubxl8jai7w5kvkgnafy7lwxy8"
+}
