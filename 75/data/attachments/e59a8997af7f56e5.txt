@@ -1,0 +1,9 @@
+{
+    "first_name":"Maiya",
+    "last_name":"Shields",
+    "email":"Kevon22@gmail.com",
+    "phone_number":"730-209-6910",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
