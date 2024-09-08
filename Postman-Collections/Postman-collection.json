@@ -10221,22 +10221,20 @@
 											"try {\r",
 											"    const jsonData = pm.response.json();\r",
 											"\r",
-											"    pm.test(\"Status code is 200\", function () {\r",
-											"        pm.response.to.have.status(200);\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
 											"    });\r",
-											"    pm.test('Verify a success response is returned', () => {\r",
-											"        pm.expect(jsonData.meaage[0]).to.eql(\"Saving amount updated\");\r",
+											"\r",
+											"    pm.test(\"Status code response is Bad Request \", function () {\r",
+											"        pm.response.to.have.status(400);\r",
 											"    });\r",
-											"    pm.test(\"Status code name has string\", function () {\r",
-											"        pm.response.to.have.status(\"OK\");\r",
-											"    });\r",
-											"    pm.test(\"Response body property\", function () {\r",
-											"        pm.expect(jsonData).to.be.an('object');\r",
-											"        pm.expect(jsonData.meaage[0]).to.be.a('string');\r",
-											"    });\r",
-											"    \r",
+											"\r",
+											"    pm.test(\"Response body has property 'message'\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"message\");\r",
+											"    pm.expect(jsonData.message).to.be.an(\"array\");\r",
+											"});\r",
 											"} catch (errors) {\r",
-											"    console.error(errors);\r",
+											"    console.error(errors)\r",
 											"}\r",
 											""
 										],
@@ -10267,7 +10265,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"employee_email\":\"Jimmy@mailinator.com\",\n    \"saving_amount\": 4\n}",
+									"raw": "{\n    \"employee_email\":\"\",\n    \"saving_amount\": \"\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -10357,6 +10355,229 @@
 								},
 								{
 									"id": "d0895fc8-a02c-4224-93b2-95c4b668dbab",
+									"name": "success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"kingsleydaeta@gmail.com\",\n    \"saving_amount\": 500\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:50:03 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "36"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"meaage\": [\n        \"Saving amount updated\"\n    ]\n}"
+								}
+							]
+						},
+						{
+							"name": "savr_update_saving_amount-Empty fields Copy",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "dacfb2dd-028b-4d83-be84-80b9ff3625ea",
+										"exec": [
+											"try {\r",
+											"    const jsonData = pm.response.json();\r",
+											"\r",
+											"    pm.test(\"Status code is 400\", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Status code response is Bad Request \", function () {\r",
+											"        pm.response.to.have.status(400);\r",
+											"    });\r",
+											"\r",
+											"    pm.test(\"Response body has property 'message'\", function () {\r",
+											"    pm.expect(jsonData).to.have.property(\"message\");\r",
+											"    pm.expect(jsonData.message).to.be.an(\"array\");\r",
+											"});\r",
+											"} catch (errors) {\r",
+											"    console.error(errors)\r",
+											"}\r",
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"id": "304cdc7d-4419-490b-8f8b-28b496ae0cbf",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "JWT {{savrToken}}",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"employee_email\":\"\",\n    \"saving_amount\": \"\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{base_url}}/api/v1/savr/savr_update_saving_amount/"
+							},
+							"response": [
+								{
+									"id": "5ac2bcc5-34ec-434e-91ce-f206adf62179",
+									"name": "Error - employee not in organisation",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Authorization",
+												"value": "{{jwt_token}}",
+												"type": "text"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"employee_email\":\"kingsle@gmail.com\",\n    \"saving_amount\": 500\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": "{{staging_base_url}}/api/v1/savr/savr_update_saving_amount/"
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Server",
+											"value": "nginx/1.18.0 (Ubuntu)"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 03 Sep 2024 09:48:02 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "45"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept, Cookie, Origin"
+										},
+										{
+											"key": "Allow",
+											"value": "POST, OPTIONS"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "DENY"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=60; includeSubDomains; preload"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"message\": [\n        \"Savr Employee Not in Company!\"\n    ]\n}"
+								},
+								{
+									"id": "258f0b16-daa8-4f09-80e9-488e94c0fe90",
 									"name": "success",
 									"originalRequest": {
 										"method": "POST",
