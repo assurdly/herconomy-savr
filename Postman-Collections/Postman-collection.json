@@ -6502,7 +6502,7 @@
 							]
 						},
 						{
-							"name": "Change Password-Same old and new password",
+							"name": "Change Password- Already used password",
 							"event": [
 								{
 									"listen": "test",
