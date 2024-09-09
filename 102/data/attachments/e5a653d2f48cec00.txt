@@ -1,0 +1,9 @@
+{
+    "first_name":"Ali",
+    "last_name":"West",
+    "email":"Faustino18@gmail.com",
+    "phone_number":"962-620-7027",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

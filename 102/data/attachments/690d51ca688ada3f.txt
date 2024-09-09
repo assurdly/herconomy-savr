@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Hane, Kilback and Krajcik",
+    "gender":"male",
+	"first_name":"Donald",               
+	"last_name": "Rice",                 
+	"email":"Joe_Bechtelar69@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

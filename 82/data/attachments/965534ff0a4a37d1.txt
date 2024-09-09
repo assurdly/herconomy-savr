@@ -1,9 +1,0 @@
-{
-    "first_name":"Nakia",
-    "last_name":"Ritchie",
-    "email":"Alden_Gulgowski@hotmail.com",
-    "phone_number":"838-379-6735",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
