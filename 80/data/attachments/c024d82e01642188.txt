@@ -1,1 +1,0 @@
-{"id":149,"admin_email":"abisola+8@assurdly.com","first_name":"Erika","last_name":"Lesch","email":"Damien.Graham32@hotmail.com","phone_number":"911-419-8149","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T09:55:52.126751Z"}

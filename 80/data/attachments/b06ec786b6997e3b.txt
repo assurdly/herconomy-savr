@@ -1,9 +1,0 @@
-{
-    "first_name":"Erika",
-    "last_name":"Lesch",
-    "email":"Damien.Graham32@hotmail.com",
-    "phone_number":"911-419-8149",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

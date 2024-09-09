@@ -1,0 +1,9 @@
+{
+    "first_name":"Ernestine",
+    "last_name":"Towne",
+    "email":"Orrin.Keebler@hotmail.com",
+    "phone_number":"937-749-4703",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

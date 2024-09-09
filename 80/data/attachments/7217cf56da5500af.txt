@@ -1,1 +1,0 @@
-{"old_password":["This field may not be blank."],"password1":["This field may not be blank."],"password2":["This field may not be blank."]}
