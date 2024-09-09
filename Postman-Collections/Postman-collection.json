@@ -6286,7 +6286,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"old_password\": \"Password9\",     // Enter the old password you want to change \n    \"password1\": \"Password4\",         // Enter new password\n    \"password2\": \"Password4\"          // Re-enter new password\n}"
+									"raw": "{\n\t\"old_password\": \"More@4mi\",     // Enter the old password you want to change \n    \"password1\": \"More@4mee\",         // Enter new password\n    \"password2\": \"More@4mee\"          // Re-enter new password\n}"
 								},
 								"url": "{{base_url}}/api/v1/users/change_password/"
 							},
@@ -6557,7 +6557,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"old_password\": \"@Password2\",     // Enter the old password you want to change \n    \"password1\": \"@Password2\",         // Enter new password\n    \"password2\": \"@Password2\"          // Re-enter new password\n}"
+									"raw": "{\n\t\"old_password\": \"More@4mee\",     // Enter the old password you want to change \n    \"password1\": \"More@4mee\",         // Enter new password\n    \"password2\": \"More@4mee\"          // Re-enter new password\n}"
 								},
 								"url": "{{base_url}}/api/v1/users/change_password/"
 							},
@@ -7366,7 +7366,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"old_password\": \"Password5\",     // Enter the old password you want to change \n    \"password1\": \"Password6\",         // Enter new password\n    \"password2\": \"Password@7\"          // Re-enter new password\n}"
+									"raw": "{\n\t\"old_password\": \"More@4mee\",     // Enter the old password you want to change \n    \"password1\": \"Password6\",         // Enter new password\n    \"password2\": \"Password@7\"          // Re-enter new password\n}"
 								},
 								"url": "{{base_url}}/api/v1/users/change_password/"
 							},
