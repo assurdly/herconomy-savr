@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Wisozk - Gorczany",
+    "gender":"male",
+	"first_name":"Genesis",               
+	"last_name": "Schaefer",                 
+	"email":"Adelbert_Berge@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

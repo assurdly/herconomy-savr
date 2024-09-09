@@ -1,0 +1,9 @@
+{
+    "first_name":"Elmo",
+    "last_name":"Pagac",
+    "email":"Easton77@hotmail.com",
+    "phone_number":"600-468-6678",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

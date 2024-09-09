@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "83ab7bce-af09-4cfa-8473-5e32531d0a90",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "57",
+    "Cookie": "messages=\"722bb8ff2c24217150444043ceaa293cc1b6fd05$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as adelbert_berge.\\\"]]\"; csrftoken=rutQAwKjGLCv4KGv5nNcoTvCgKHdlCtovo1eIG3BK4kHyOgyhiSJfQ0LMoEttW9U; sessionid=4711vscljbvl6vjc7do9spx86ke4feet"
+}
