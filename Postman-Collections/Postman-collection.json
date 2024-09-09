@@ -7042,7 +7042,7 @@
 							]
 						},
 						{
-							"name": "Change Password-Less than 6 digits",
+							"name": "Change Password-Less than 6 digits new passwords",
 							"event": [
 								{
 									"listen": "test",
