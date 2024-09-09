@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "3ffd8678-e99c-4a4e-900c-7a7a6c97459a",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "52",
+    "Cookie": "messages=\"19b5475b55e254e4362fd438218d256b33b5fae7$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as destiny_cronin.\\\"]]\"; csrftoken=cvMpJOD2IHAB4iFKPedgHa3Z29NCymSMmCofFQsjqY0L46sP2Lk53gQtSQQzexwU; sessionid=bx1pc5juk9eg2u9qasqt4vwn1k4w3nbx"
+}

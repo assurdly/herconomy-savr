@@ -1,1 +1,0 @@
-{"password1":["Ensure this field has at least 6 characters."],"password2":["Ensure this field has at least 6 characters."]}

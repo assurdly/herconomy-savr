@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Stiedemann, Doyle and Lind",
+    "gender":"male",
+	"first_name":"Aimee",               
+	"last_name": "O'Reilly",                 
+	"email":"Destiny_Cronin@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
