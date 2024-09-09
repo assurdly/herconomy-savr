@@ -1,1 +1,0 @@
-{"message":["Unable to verify your BVN with the provided information"]}

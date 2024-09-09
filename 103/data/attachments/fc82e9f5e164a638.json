@@ -1,0 +1,14 @@
+{
+    "Authorization": "JWT null",
+    "": "885-829-2090",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "dc49e4c9-1510-42cd-918f-ae6e62b9e6fa",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "211",
+    "Cookie": "messages=\"717a790349fa5087670d92eeddd4cecfd5b26fc5$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as benjamin.ohara.\\\"]]\"; csrftoken=saMo4GW8bvfCnv1vSsFU3WaWD4uojIZ34ZiUW7MnCGYeAvuXXMADjmyLFoLtW3nM; sessionid=ckh3a1vc2t0cc4t53qbsvvpdrzg8jqt5"
+}

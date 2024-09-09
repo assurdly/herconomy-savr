@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Maggio and Sons",
+    "gender":"male",
+	"first_name":"Leonora",               
+	"last_name": "Renner",                 
+	"email":"Benjamin.OHara@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
