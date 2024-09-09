@@ -8156,7 +8156,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"abisola+8@assurdly.com\"\n}"
+									"raw": "{\n\t// \"token\": \"\",            // Enter token sent via email\n    // \"password1\": \"\",         // Enter password\n    \"email\":\"ajidagbarasheedat95@gmail.com\"\n}"
 								},
 								"url": "{{base_url}}/api/v1/accounts/password_reset_request/"
 							},
