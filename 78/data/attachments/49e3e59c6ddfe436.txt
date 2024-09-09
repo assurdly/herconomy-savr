@@ -1,1 +1,0 @@
-{"id":147,"admin_email":"abisola+8@assurdly.com","first_name":"Harvey","last_name":"Lehner","email":"Beau.Hoeger10@gmail.com","phone_number":"312-982-0409","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T09:44:33.866520Z"}

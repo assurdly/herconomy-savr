@@ -1,1 +1,0 @@
-{"detail":"Password not the same"}

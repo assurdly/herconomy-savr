@@ -1,0 +1,9 @@
+{
+    "first_name":"Judy",
+    "last_name":"West",
+    "email":"Adeline11@yahoo.com",
+    "phone_number":"947-519-4408",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

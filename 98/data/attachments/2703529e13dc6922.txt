@@ -1,0 +1,11 @@
+{
+    "user_role": "CEO",
+    "company_name":"Balistreri - Nienow",
+    "gender":"male",
+	"first_name":"Travis",               
+	"last_name": "Hoppe",                 
+	"email":"Lourdes76@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
