@@ -1,0 +1,9 @@
+{
+    "first_name":"Haleigh",
+    "last_name":"Hermiston",
+    "email":"Caesar.Abshire26@hotmail.com",
+    "phone_number":"529-608-4805",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

@@ -1,0 +1,12 @@
+{
+    "phone_number":"556-300-0892",
+    "user_role": "CEO",
+    "company_name":"Hettinger - Blanda",
+    "gender":"male",
+	"first_name":"Bo",               
+	"last_name": "Simonis",                 
+	"email":"Geoffrey83@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,1 +1,0 @@
-{"id":160,"admin_email":"abisola+8@assurdly.com","first_name":"Gia","last_name":"Sanford","email":"Randall_Grant@hotmail.com","phone_number":"651-679-5916","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T10:35:40.568795Z"}
