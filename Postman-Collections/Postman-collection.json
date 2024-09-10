@@ -1280,7 +1280,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n\t\"email\": \"ajidagbarasheedat95@gmail\",       // Enter registered email\n\t\"password\":\"More24mee\"          // Enter Registered Password\n}"
+									"raw": "{\n\t\"email\": \"ajidagbarasheedat95@gmail.com\",       // Enter registered email\n\t\"password\":\"More24mee\"          // Enter Registered Password\n}"
 								},
 								"url": "{{base_url}}/api/v1/rest-auth/login/"
 							},
