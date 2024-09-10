@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "062192be-4992-4210-9e90-ff27aa66dfcd",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "60748",
+    "Cookie": "messages=\"2b6bd659724b068fbbe8517dd6fa93520ddb6d0b$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as amiya63.\\\"]]\"; csrftoken=8iLM6Ol9RRxWhatdfEl6wxagYSf110xeYWLrRcLObuy8EAgSDxxilX2gnyW7Tb8q; sessionid=zhnal46bzabqjy3vhi7kmxo40381aflr"
+}
