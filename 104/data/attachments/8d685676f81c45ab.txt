@@ -1,0 +1,9 @@
+{
+    "first_name":"Kyleigh",
+    "last_name":"Grady",
+    "email":"Olaf.Gerhold67@yahoo.com",
+    "phone_number":"753-287-2055",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
