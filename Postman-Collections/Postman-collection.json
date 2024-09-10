@@ -68,11 +68,17 @@
 									{
 										"key": "Content-Type",
 										"value": "application/json"
+									},
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"user_role\": \"CEO\",\n    \"company_name\":\"{{$randomCompanyName}}\",\n    \"gender\":\"male\",\n\t\"first_name\":\"{{$randomFirstName}}\",               // user first name \n\t\"last_name\": \"{{$randomLastName}}\",                 // user last name\n\t\"email\":\"{{$randomEmail}}\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"             // re-enter password\n\t\n}"
+									"raw": "{\n    \"phone_number\":\"{{$randomPhoneNumber}}\",\n    \"user_role\": \"CEO\",\n    \"company_name\":\"{{$randomCompanyName}}\",\n    \"gender\":\"male\",\n\t\"first_name\":\"{{$randomFirstName}}\",               // user first name \n\t\"last_name\": \"{{$randomLastName}}\",                 // user last name\n\t\"email\":\"{{$randomEmail}}\",    // email address\n\t\"password1\":\"More@4me\",            // password\n\t\"password2\":\"More@4me\"             // re-enter password\n\t\n}"
 								},
 								"url": "{{base_url}}/api/v1/rest-auth/registration/"
 							},
@@ -8557,7 +8563,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "{{jwt_token}}",
+								"value": "",
 								"type": "text",
 								"disabled": true
 							},
