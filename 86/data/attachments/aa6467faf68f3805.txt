@@ -1,9 +1,0 @@
-{
-    "first_name":"Myah",
-    "last_name":"Rosenbaum",
-    "email":"Milford_Shields84@gmail.com",
-    "phone_number":"561-844-0658",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

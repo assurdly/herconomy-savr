@@ -1,0 +1,9 @@
+{
+    "first_name":"Emelie",
+    "last_name":"Dickinson",
+    "email":"Brannon85@hotmail.com",
+    "phone_number":"484-901-1704",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

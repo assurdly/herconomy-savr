@@ -1,0 +1,12 @@
+{
+    "phone_number":"646-841-5880",
+    "user_role": "CEO",
+    "company_name":"O'Reilly Inc",
+    "gender":"male",
+	"first_name":"Andreane",               
+	"last_name": "Mraz",                 
+	"email":"Zakary_Runolfsdottir@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
