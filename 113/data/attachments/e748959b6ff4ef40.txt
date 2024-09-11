@@ -1,0 +1,12 @@
+{
+    "phone_number":"632-422-5768",
+    "user_role": "CEO",
+    "company_name":"Morissette and Sons",
+    "gender":"male",
+	"first_name":"Abigale",               
+	"last_name": "Trantow",                 
+	"email":"Mireille_Runte76@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

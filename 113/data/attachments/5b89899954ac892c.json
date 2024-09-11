@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "": "",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "4a121d69-8ec9-4bdd-b0f7-7dbebec73147",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "326"
+}
