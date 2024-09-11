@@ -1,0 +1,12 @@
+{
+    "phone_number":"200-305-2825",
+    "user_role": "CEO",
+    "company_name":"Hudson - Robel",
+    "gender":"male",
+	"first_name":"Carleton",               
+	"last_name": "Purdy",                 
+	"email":"Neva_Halvorson10@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

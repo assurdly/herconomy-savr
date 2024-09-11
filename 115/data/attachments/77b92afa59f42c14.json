@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "bfba5b1a-f455-4582-a2f0-ef2b743315de",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "279",
+    "Cookie": "messages=\"ac2b2358912e3fe9ff6aa1ea5eeafbaebf80e7d6$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as neva_halvorson10.\\\"]]\"; csrftoken=4MZvJWBaec57jRkvVZdQoCSFa93hvdhZMdfUj5FzpsRbeRjXg0fUbQP7tUl5HFvN; sessionid=gz3h47twor1yqhtkvzvr6vrrelipchvg"
+}
