@@ -8737,8 +8737,9 @@
 									},
 									{
 										"key": "",
-										"value": "{{$randomPhoneNumber}}",
-										"type": "text"
+										"value": "",
+										"type": "text",
+										"disabled": true
 									}
 								],
 								"body": {
