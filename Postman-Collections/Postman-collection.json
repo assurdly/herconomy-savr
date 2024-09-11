@@ -8559,7 +8559,7 @@
 						"disabledSystemHeaders": {}
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [
 							{
 								"key": "Authorization",
@@ -8575,7 +8575,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "\r\n{\r\n\t\"email\": \"ajidagbarasheedat95@gmail.com\", \r\n }      // Enter registered email\r\n\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
