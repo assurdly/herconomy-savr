@@ -1,0 +1,9 @@
+{
+    "first_name":"Viviane",
+    "last_name":"Veum",
+    "email":"Audreanne.Pollich50@gmail.com",
+    "phone_number":"442-803-9571",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
