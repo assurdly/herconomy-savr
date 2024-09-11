@@ -1,9 +1,0 @@
-{
-    "first_name":"Floyd",
-    "last_name":"Littel",
-    "email":"Daisha58@yahoo.com",
-    "phone_number":"928-534-4684",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

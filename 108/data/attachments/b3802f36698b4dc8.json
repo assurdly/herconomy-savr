@@ -1,0 +1,11 @@
+{
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "2dd78d76-404a-4f44-9ec5-19ad6d3fcce7",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Cookie": "messages=\"2802d893ef3783263bc2b72a14a1cbf716bb33cb$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as brenden.nicolas9.\\\"]]\"; csrftoken=agR9AoLqdnfwPNFNhoOsbmGx4qHIwu3YZcm7PUBUokuqBweNJz8ZZyByibRjfQPs; sessionid=n43aicrbxy224ada7cn0i3ek91kj17wh"
+}
