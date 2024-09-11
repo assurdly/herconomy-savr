@@ -1,9 +1,0 @@
-{
-    "first_name":"Cordell",
-    "last_name":"Rice",
-    "email":"Vivien.Nader@gmail.com",
-    "phone_number":"898-402-8144",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
