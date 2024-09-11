@@ -1,9 +1,0 @@
-{
-    "first_name":"August",
-    "last_name":"Mills",
-    "email":"Mckenzie79@gmail.com",
-    "phone_number":"935-283-6745",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

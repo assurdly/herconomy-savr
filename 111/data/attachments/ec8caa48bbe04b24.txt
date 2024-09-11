@@ -1,0 +1,12 @@
+{
+    "phone_number":"470-279-0747",
+    "user_role": "CEO",
+    "company_name":"Pouros - Bahringer",
+    "gender":"male",
+	"first_name":"Mariah",               
+	"last_name": "Rodriguez",                 
+	"email":"Molly36@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

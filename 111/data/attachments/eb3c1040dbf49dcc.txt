@@ -1,0 +1,9 @@
+{
+    "first_name":"Rodrigo",
+    "last_name":"Cormier",
+    "email":"Jadyn35@hotmail.com",
+    "phone_number":"424-846-4637",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

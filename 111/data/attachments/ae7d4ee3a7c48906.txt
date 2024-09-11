@@ -1,0 +1,1 @@
+{"id":177,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Rodrigo","last_name":"Cormier","email":"Jadyn35@hotmail.com","phone_number":"424-846-4637","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-11T13:15:06.174434Z"}
