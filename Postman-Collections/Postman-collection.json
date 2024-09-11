@@ -8671,7 +8671,7 @@
 			"name": "Employee",
 			"item": [
 				{
-					"name": "Add Emplyee",
+					"name": "Add Employee",
 					"item": [
 						{
 							"name": "create_savr_employee",
