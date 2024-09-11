@@ -1,0 +1,14 @@
+{
+    "Authorization": "JWT ",
+    "": "728-477-6984",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "491d5f31-39c3-4a18-bd2a-3fbb8ae836b3",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "211",
+    "Cookie": "messages=\"4247b361346e54da28e705467bae4b97c3b1a3b0$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as gianni59.\\\"]]\"; csrftoken=0sZI6hJhNuIgkKpqpRxWNLnPolB6Y13usEUvkuwyObvU9oWza59SJXhNE2u5F6Qd; sessionid=w2px62favt5jbz85zflxjtsw737mmn28"
+}

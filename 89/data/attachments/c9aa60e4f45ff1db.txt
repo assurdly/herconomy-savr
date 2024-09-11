@@ -1,5 +1,0 @@
-{
-	"old_password": "Password9",     
-    "password1": "Password4",         
-    "password2": "Password4"          
-}

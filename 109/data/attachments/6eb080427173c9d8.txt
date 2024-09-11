@@ -1,0 +1,12 @@
+{
+    "phone_number":"851-374-0481",
+    "user_role": "CEO",
+    "company_name":"Dare Group",
+    "gender":"male",
+	"first_name":"Ezekiel",               
+	"last_name": "Kihn",                 
+	"email":"Gianni59@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

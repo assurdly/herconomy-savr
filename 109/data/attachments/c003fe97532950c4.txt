@@ -1,0 +1,9 @@
+{
+    "first_name":"Wilhelm",
+    "last_name":"Kozey",
+    "email":"Darrel50@gmail.com",
+    "phone_number":"719-754-2703",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
