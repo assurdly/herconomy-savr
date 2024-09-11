@@ -1,0 +1,1 @@
+{"id":183,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Zaria","last_name":"Stark","email":"Carolyne.Beier45@hotmail.com","phone_number":"831-767-8740","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-11T13:31:02.904698Z"}

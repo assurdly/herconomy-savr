@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "0814dc3a-bca9-4c3b-ac5a-08832ada963c",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "87",
+    "Cookie": "messages=\"3956ca6bcc5d682912f3d760fa32400fabb3c913$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as karli.kuvalis2.\\\"]]\"; csrftoken=uALmfZB9eL8wOsrAV6F5exS94GNiWqQ3oAVDcTuCj6FDtgm7dIMS4P3UAF1NOBBa; sessionid=792wox8s523rfcvzzl84ts6n0fdrkt2b"
+}

@@ -1,0 +1,19 @@
+try {
+    const jsonData = pm.response.json();
+    const employeee_email = jsonData.email;
+    pm.environment.set("employeeemail", employeee_email);
+
+    pm.test("Status code is 201", function () {
+        pm.response.to.have.status(201);
+    });
+
+ pm.test("Status code name has string", function () {
+ pm.response.to.have.status("Created");
+});
+    pm.test("Response body property", function () {
+        pm.expect(jsonData).to.be.an('object');
+        });
+   
+} catch (errors) {
+    console.error(errors)
+}

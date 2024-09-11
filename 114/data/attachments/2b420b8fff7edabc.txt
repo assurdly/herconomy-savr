@@ -1,0 +1,12 @@
+{
+    "phone_number":"699-841-2298",
+    "user_role": "CEO",
+    "company_name":"Halvorson - Krajcik",
+    "gender":"male",
+	"first_name":"Gabriella",               
+	"last_name": "Fritsch",                 
+	"email":"Karli.Kuvalis2@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
