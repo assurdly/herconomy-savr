@@ -8559,7 +8559,7 @@
 						"disabledSystemHeaders": {}
 					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Authorization",
@@ -8573,15 +8573,6 @@
 								"type": "text"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": "\r\n{\r\n\t\"email\": \"ajidagbarasheedat95@gmail.com\", \r\n }      // Enter registered email\r\n\r\n",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
 						"url": "{{base_url}}/api/v1/savr/savr_dashboard_summary/"
 					},
 					"response": [
@@ -12040,7 +12031,7 @@
 											"    pm.expect(jsonData).to.have.property(\"message\");\r",
 											"    pm.expect(jsonData.message).to.be.an(\"array\");\r",
 											"     pm.test('Verify a valid data error response it returned', () => {\r",
-											"        pm.expect(jsonData.message).eql([ \"Savr Employee Not in Company!\"])\r",
+											"        pm.expect(jsonData.message).eql([\"Savr Employee Not in Company!\"])\r",
 											"    })\r",
 											"});\r",
 											"} catch (errors) {\r",
