@@ -1,1 +1,0 @@
-{"id":165,"admin_email":"abisola+8@assurdly.com","first_name":"Sarah","last_name":"Hickle","email":"Elody_Ritchie92@gmail.com","phone_number":"825-329-9421","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-08T11:34:08.159419Z"}

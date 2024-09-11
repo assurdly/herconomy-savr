@@ -1,0 +1,9 @@
+{
+    "first_name":"Rhett",
+    "last_name":"Berge",
+    "email":"Brandyn_Reinger33@gmail.com",
+    "phone_number":"554-389-8765",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

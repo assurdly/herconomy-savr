@@ -1,0 +1,12 @@
+{
+    "phone_number":"227-462-1740",
+    "user_role": "CEO",
+    "company_name":"Doyle, Nienow and Torp",
+    "gender":"male",
+	"first_name":"Angelo",               
+	"last_name": "Muller",                 
+	"email":"Laura_Stanton@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
