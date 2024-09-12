@@ -1,0 +1,9 @@
+{
+    "first_name":"Mateo",
+    "last_name":"Barton",
+    "email":"Cale42@gmail.com",
+    "phone_number":"946-372-1811",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "0b2cca1c-8cb2-4df8-bd9c-1e38249d0d04",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "87",
+    "Cookie": "messages=\"aa12a6f30716f10ba1b65393824273bfa8eeb665$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as alene.frami65.\\\"]]\"; csrftoken=przwc6387mQJ8wvF9saKdKnLIRQD0rVQ3oMNKBqUTlTw7aANUHQ4CmCZqPuCqdPG; sessionid=9zj1zab2ue7k3ebaxqvulwbml2p8so74"
+}
