@@ -1,9 +1,0 @@
-{
-    "first_name":"Irving",
-    "last_name":"Haley",
-    "email":"Leda_Upton51@hotmail.com",
-    "phone_number":"924-783-6425",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
