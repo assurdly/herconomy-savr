@@ -1,0 +1,12 @@
+{
+    "phone_number":"540-529-0102",
+    "user_role": "CEO",
+    "company_name":"Beier - Stiedemann",
+    "gender":"male",
+	"first_name":"Agnes",               
+	"last_name": "Raynor",                 
+	"email":"Winona90@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

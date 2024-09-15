@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "c49222d8-b0b8-4d2b-8d3c-ef80c7673389",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "82",
+    "Cookie": "messages=\"2404f7d02cfc08bd45dcf555f984cbafbcbb5e85$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as winona90.\\\"]]\"; csrftoken=cfAMfc6QhocMplJwOM5aMNultfRnnKRxSwV6JTQw86jrtFWJrqNzG5mUqqxIc9u2; sessionid=7wsr93xm7y3urivvdqp6pdc0hj073amu"
+}
