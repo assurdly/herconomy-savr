@@ -1,9 +1,0 @@
-{
-    "first_name":"Idell",
-    "last_name":"Fritsch",
-    "email":"Helga.Bashirian56@yahoo.com",
-    "phone_number":"528-480-4461",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

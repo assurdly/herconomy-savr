@@ -1,0 +1,9 @@
+{
+    "first_name":"Daphne",
+    "last_name":"Goldner",
+    "email":"Therese_Rippin47@yahoo.com",
+    "phone_number":"672-780-0295",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
