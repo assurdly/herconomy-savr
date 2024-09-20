@@ -1,0 +1,9 @@
+{
+    "first_name":"Wilber",
+    "last_name":"Funk",
+    "email":"Johnathon.Quigley@gmail.com",
+    "phone_number":"279-405-0287",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
