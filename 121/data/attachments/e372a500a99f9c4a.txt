@@ -1,0 +1,1 @@
+{"id":198,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Deonte","last_name":"Kiehn","email":"Shaniya_Blanda@yahoo.com","phone_number":"776-918-0166","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-22T21:05:02.637928Z"}

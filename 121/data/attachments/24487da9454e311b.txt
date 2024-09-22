@@ -1,0 +1,9 @@
+{
+    "first_name":"Deonte",
+    "last_name":"Kiehn",
+    "email":"Shaniya_Blanda@yahoo.com",
+    "phone_number":"776-918-0166",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

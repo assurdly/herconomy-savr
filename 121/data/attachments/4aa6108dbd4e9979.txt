@@ -1,0 +1,12 @@
+{
+    "phone_number":"586-563-4337",
+    "user_role": "CEO",
+    "company_name":"Rice - Blanda",
+    "gender":"male",
+	"first_name":"Claud",               
+	"last_name": "Schaden",                 
+	"email":"Spencer.Borer@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
