@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT ",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "4c683a70-490d-43ac-b0e0-bd95ab3b7143",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "136",
+    "Cookie": "csrftoken=LRW7PuXAmzv0cEki2Z6VL6MsN6Hf3M7XmwTGMETDu5N7bB4yqwC8sIwsvwewSec3; messages=\"622af7d846e4508c40e0d8bce5880fb84a967940$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as matteo_morissette.\\\"]]\""
+}

@@ -1,0 +1,12 @@
+{
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Thu, 26 Sep 2024 18:01:21 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "145",
+    "Connection": "keep-alive",
+    "Vary": "Cookie, Origin",
+    "X-Frame-Options": "DENY",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block",
+    "Set-Cookie": "messages=\"622af7d846e4508c40e0d8bce5880fb84a967940$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as matteo_morissette.\\\"]]\"; HttpOnly; Path=/; SameSite=Lax; Secure"
+}
