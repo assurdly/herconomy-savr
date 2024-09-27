@@ -1,0 +1,12 @@
+{
+    "phone_number":"219-963-3934",
+    "user_role": "CEO",
+    "company_name":"Turcotte LLC",
+    "gender":"male",
+	"first_name":"Tracey",               
+	"last_name": "McGlynn",                 
+	"email":"Hal.Effertz@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

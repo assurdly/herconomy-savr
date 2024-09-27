@@ -1,9 +1,0 @@
-{
-    "first_name":"Gloria",
-    "last_name":"Hegmann",
-    "email":"Shanel74@yahoo.com",
-    "phone_number":"723-978-3603",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
