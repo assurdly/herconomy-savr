@@ -1,0 +1,9 @@
+{
+    "first_name":"Brittany",
+    "last_name":"Walter",
+    "email":"Joannie.Donnelly@hotmail.com",
+    "phone_number":"999-901-0040",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

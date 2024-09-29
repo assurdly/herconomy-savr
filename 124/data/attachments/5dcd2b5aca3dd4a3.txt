@@ -1,0 +1,12 @@
+{
+    "phone_number":"769-530-5994",
+    "user_role": "CEO",
+    "company_name":"Dare Group",
+    "gender":"male",
+	"first_name":"Zachery",               
+	"last_name": "Hettinger",                 
+	"email":"Romaine_Conn80@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
