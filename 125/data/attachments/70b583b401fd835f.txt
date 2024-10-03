@@ -1,0 +1,9 @@
+{
+    "first_name":"Rickey",
+    "last_name":"Greenholt",
+    "email":"Jermaine53@hotmail.com",
+    "phone_number":"559-961-4919",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

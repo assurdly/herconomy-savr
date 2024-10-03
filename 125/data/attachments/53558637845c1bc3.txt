@@ -1,0 +1,1 @@
+{"id":201,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Rickey","last_name":"Greenholt","email":"Jermaine53@hotmail.com","phone_number":"559-961-4919","saving_amount":"200.0","saving_frequency":"weekly","created_at":"2024-10-03T19:03:11.281982Z"}
