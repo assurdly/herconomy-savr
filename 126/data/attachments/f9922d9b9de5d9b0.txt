@@ -1,0 +1,9 @@
+{
+    "first_name":"Noemy",
+    "last_name":"Fahey",
+    "email":"Brad_Ryan@gmail.com",
+    "phone_number":"763-705-9498",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

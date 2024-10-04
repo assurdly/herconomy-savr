@@ -1,0 +1,12 @@
+{
+    "phone_number":"785-426-6634",
+    "user_role": "CEO",
+    "company_name":"Schuster, Ratke and Tillman",
+    "gender":"male",
+	"first_name":"Merlin",               
+	"last_name": "Lind",                 
+	"email":"Alfredo.Sporer@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
