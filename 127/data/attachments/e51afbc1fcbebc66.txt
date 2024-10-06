@@ -1,0 +1,12 @@
+{
+    "phone_number":"725-676-6207",
+    "user_role": "CEO",
+    "company_name":"Reynolds - Donnelly",
+    "gender":"male",
+	"first_name":"Nathanael",               
+	"last_name": "Schiller",                 
+	"email":"Immanuel_Braun@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

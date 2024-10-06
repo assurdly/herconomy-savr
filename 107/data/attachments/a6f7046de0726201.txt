@@ -1,9 +1,0 @@
-{
-    "first_name":"Jalon",
-    "last_name":"Brown",
-    "email":"Leonora.Stoltenberg@hotmail.com",
-    "phone_number":"252-731-0979",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
