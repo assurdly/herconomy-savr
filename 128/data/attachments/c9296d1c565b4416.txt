@@ -1,0 +1,12 @@
+{
+    "phone_number":"293-224-2504",
+    "user_role": "CEO",
+    "company_name":"Hamill LLC",
+    "gender":"male",
+	"first_name":"Pat",               
+	"last_name": "Lebsack",                 
+	"email":"Anderson40@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,9 +1,0 @@
-{
-    "first_name":"Jared",
-    "last_name":"Von",
-    "email":"Helga.Lebsack@yahoo.com",
-    "phone_number":"214-687-1692",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
