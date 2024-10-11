@@ -1,0 +1,9 @@
+{
+    "first_name":"Krystal",
+    "last_name":"Runolfsson",
+    "email":"Green.Tromp@gmail.com",
+    "phone_number":"767-981-8776",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

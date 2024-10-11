@@ -1,0 +1,10 @@
+{
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Fri, 11 Oct 2024 18:08:55 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "110",
+    "Connection": "keep-alive",
+    "Vary": "Cookie, Origin",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block"
+}
