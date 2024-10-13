@@ -1,9 +1,0 @@
-{
-    "first_name":"Amy",
-    "last_name":"Carroll",
-    "email":"Jackson.OKeefe65@yahoo.com",
-    "phone_number":"711-307-8163",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

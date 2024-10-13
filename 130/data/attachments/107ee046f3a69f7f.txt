@@ -1,0 +1,9 @@
+{
+    "first_name":"Magdalen",
+    "last_name":"Langosh",
+    "email":"Nestor.Okuneva84@gmail.com",
+    "phone_number":"794-516-8352",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
