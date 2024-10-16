@@ -1,0 +1,12 @@
+{
+    "phone_number":"964-247-7658",
+    "user_role": "CEO",
+    "company_name":"White and Sons",
+    "gender":"male",
+	"first_name":"Pedro",               
+	"last_name": "Roob",                 
+	"email":"Dandre.Jast82@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,0 +1,9 @@
+{
+    "first_name":"Darian",
+    "last_name":"Douglas",
+    "email":"Dayne_Flatley@gmail.com",
+    "phone_number":"207-692-6523",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
