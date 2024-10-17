@@ -1,0 +1,12 @@
+{
+    "phone_number":"227-488-3516",
+    "user_role": "CEO",
+    "company_name":"Boehm Inc",
+    "gender":"male",
+	"first_name":"Izabella",               
+	"last_name": "Effertz",                 
+	"email":"Dewitt.Hahn@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
