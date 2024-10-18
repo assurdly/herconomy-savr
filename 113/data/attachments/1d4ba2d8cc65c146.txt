@@ -1,9 +1,0 @@
-{
-    "first_name":"Camila",
-    "last_name":"Orn",
-    "email":"Dorris.Nolan13@hotmail.com",
-    "phone_number":"298-240-9678",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
