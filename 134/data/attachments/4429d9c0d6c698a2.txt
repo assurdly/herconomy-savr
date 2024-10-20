@@ -1,0 +1,9 @@
+{
+    "first_name":"Erik",
+    "last_name":"Torphy",
+    "email":"Chesley.Schimmel76@yahoo.com",
+    "phone_number":"651-689-7489",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

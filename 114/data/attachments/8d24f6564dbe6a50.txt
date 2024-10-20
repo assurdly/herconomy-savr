@@ -1,5 +1,0 @@
-{
-	"old_password": "More@4mi",     
-    "password1": "More@4mee",         
-    "password2": "More@4mee"          
-}

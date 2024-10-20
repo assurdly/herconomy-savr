@@ -1,4 +1,0 @@
-{
-    "employee_email":"",
-    "saving_amount": ""
-}

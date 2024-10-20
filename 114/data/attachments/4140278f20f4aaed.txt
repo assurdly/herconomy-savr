@@ -1,5 +1,0 @@
-{
-	
-    
-    "email":"coco@mailinaor.com"
-}

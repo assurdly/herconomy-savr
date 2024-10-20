@@ -1,9 +1,0 @@
-{
-    "first_name":"Zaria",
-    "last_name":"Stark",
-    "email":"Carolyne.Beier45@hotmail.com",
-    "phone_number":"831-767-8740",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

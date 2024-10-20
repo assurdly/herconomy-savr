@@ -1,3 +1,0 @@
-{
-    "employee_email": "Alfreda_Gulgowski98@gmail.com"
-}
