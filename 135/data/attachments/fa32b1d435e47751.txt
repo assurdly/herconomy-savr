@@ -1,0 +1,9 @@
+{
+    "first_name":"Corene",
+    "last_name":"Pfannerstill",
+    "email":"Dax.Bins70@hotmail.com",
+    "phone_number":"462-680-8272",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

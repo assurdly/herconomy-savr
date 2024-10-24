@@ -1,9 +1,0 @@
-{
-    "first_name":"Melyssa",
-    "last_name":"Gutmann",
-    "email":"Vickie_Stehr@hotmail.com",
-    "phone_number":"637-819-8967",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

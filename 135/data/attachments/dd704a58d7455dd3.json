@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "eddb3d6f-6c83-4731-a635-1eb3b8380082",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "208",
+    "Cookie": "messages=\"5ef772badff3dfab2322267d19fda2d23ad649f5$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as clovis_flatley.\\\"]]\"; csrftoken=aJQ3zO8tEQaxExUDYbPkmCgRcE4ZJthhajKExaaAv4sy4HhTrZAf8qNQ8idI2n8A; sessionid=s41d534kxr4nu4nszmalrih5o8oq6uqe"
+}

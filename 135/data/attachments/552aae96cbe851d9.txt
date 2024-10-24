@@ -1,0 +1,12 @@
+{
+    "phone_number":"444-313-1075",
+    "user_role": "CEO",
+    "company_name":"Shields, Gorczany and Dare",
+    "gender":"male",
+	"first_name":"Vito",               
+	"last_name": "Hand",                 
+	"email":"Clovis_Flatley@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
