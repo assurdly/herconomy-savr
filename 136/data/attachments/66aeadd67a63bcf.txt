@@ -1,0 +1,9 @@
+{
+    "first_name":"Everardo",
+    "last_name":"Harvey",
+    "email":"Vincent_Blick@hotmail.com",
+    "phone_number":"431-880-7965",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

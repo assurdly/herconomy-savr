@@ -1,0 +1,12 @@
+{
+    "phone_number":"996-411-8316",
+    "user_role": "CEO",
+    "company_name":"Okuneva, Gorczany and Labadie",
+    "gender":"male",
+	"first_name":"Desmond",               
+	"last_name": "Mitchell",                 
+	"email":"Sedrick.Kutch49@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

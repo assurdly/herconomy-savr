@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "e2fd5b15-bc88-4fec-b4f5-b622763bac3a",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "208",
+    "Cookie": "messages=\"51abc97a27ca6a924e968c7dcf3a7eed6f0ffaab$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as sedrick.kutch49.\\\"]]\"; csrftoken=efNwDjhCE2wV8uDGPgthgBSvlbZIISftO9CPsdvHmETeRny7rOX4yWIDFZe8DC5T; sessionid=z2t7nfie973inrff1oonxexe3f1bkg3y"
+}

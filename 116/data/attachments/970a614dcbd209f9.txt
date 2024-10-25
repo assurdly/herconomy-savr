@@ -1,1 +1,0 @@
-{"id":186,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Mateo","last_name":"Barton","email":"Cale42@gmail.com","phone_number":"946-372-1811","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-12T19:04:22.457316Z"}
