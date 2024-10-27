@@ -1,0 +1,9 @@
+{
+    "first_name":"Bette",
+    "last_name":"Trantow",
+    "email":"Constance_Raynor26@hotmail.com",
+    "phone_number":"901-503-3088",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

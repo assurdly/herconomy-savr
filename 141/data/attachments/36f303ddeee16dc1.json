@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiOGM1OTk2ZjYtNDg3ZC00Y2JhLWExMWMtODk2MDk3MzJhYTNiIiwidXNlcm5hbWUiOiJhamlkYWdiYXJhc2hlZWRhdDk1IiwiZXhwIjoxNzMwMTM1Nzg3LCJlbWFpbCI6ImFqaWRhZ2JhcmFzaGVlZGF0OTVAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MzAwNDkzODd9.8x9ThP1skgIIRNBT4psjuKZ1ywDJBR0kU7gtWzyAqts",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "49ae4b6c-cbec-4ae8-958b-9bb535c7de92",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "47",
+    "Cookie": "messages=\"354043f0cc118f3d1d80bbdae4216ac0b0763532$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as rubye51.\\\"]]\"; csrftoken=5IUiQumuNexLglvZTKBPFpcnsKUJ6rSCnkVrYxxuWcsKLHNRNUjt96dSxLn7XNBl; sessionid=onq0p8s6vzb5keoyti3491j0pl1sovzi"
+}

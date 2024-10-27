@@ -1,0 +1,12 @@
+{
+    "phone_number":"286-849-2766",
+    "user_role": "CEO",
+    "company_name":"Zboncak LLC",
+    "gender":"male",
+	"first_name":"Sunny",               
+	"last_name": "Mayer",                 
+	"email":"Rubye51@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

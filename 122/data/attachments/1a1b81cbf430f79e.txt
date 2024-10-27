@@ -1,9 +1,0 @@
-{
-    "first_name":"Demarcus",
-    "last_name":"Cremin",
-    "email":"Marge20@gmail.com",
-    "phone_number":"300-974-5319",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
