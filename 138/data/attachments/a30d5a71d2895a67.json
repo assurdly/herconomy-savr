@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "0aadbe36-f131-4776-bf0f-834d2def856e",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "43",
+    "Cookie": "messages=\"7a072e9ae2a24e653eebee3db2e943ce80ac53ee$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as leonor.konopelski41.\\\"]]\"; csrftoken=u3xy4rR5nt7iMbr8W5lNUapzkabL59OEkuU9QOcvg6xpXZ5uC0N0P7Jjs7sba00L; sessionid=9s2t4a4jtybx1cufhn05l7xp1289u0za"
+}

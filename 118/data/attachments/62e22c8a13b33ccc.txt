@@ -1,9 +1,0 @@
-{
-    "first_name":"Gavin",
-    "last_name":"Reynolds",
-    "email":"Hillard.Fadel@hotmail.com",
-    "phone_number":"953-583-0303",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

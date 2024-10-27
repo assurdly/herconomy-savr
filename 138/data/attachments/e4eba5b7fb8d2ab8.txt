@@ -1,0 +1,12 @@
+{
+    "phone_number":"250-271-0520",
+    "user_role": "CEO",
+    "company_name":"Kutch - Bergstrom",
+    "gender":"male",
+	"first_name":"Quentin",               
+	"last_name": "Nader",                 
+	"email":"Leonor.Konopelski41@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

@@ -1,1 +1,0 @@
-{"id":188,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Gavin","last_name":"Reynolds","email":"Hillard.Fadel@hotmail.com","phone_number":"953-583-0303","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-15T21:03:44.108176Z"}
