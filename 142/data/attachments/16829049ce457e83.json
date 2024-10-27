@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "ce087e36-3a0c-4a51-9c51-82e11e0892f0",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "80",
+    "Cookie": "messages=\"1c205a8246fff693bb07d4b16fb1a66072c219c6$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as nathanael.runolfsson42.\\\"]]\"; csrftoken=wASCIpNhCakQHZOxsvRRXVcakEkmoW0R7Bb4fvflu26mlVb5738xTSfGLKeytE70; sessionid=mfxnl05hfi713vfk5g01nhuvbn9qsc1e"
+}

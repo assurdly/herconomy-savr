@@ -1,0 +1,9 @@
+{
+    "first_name":"Chester",
+    "last_name":"Russel",
+    "email":"Lorena.Watsica@gmail.com",
+    "phone_number":"502-284-0907",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

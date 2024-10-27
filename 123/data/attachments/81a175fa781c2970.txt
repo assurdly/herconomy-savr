@@ -1,9 +1,0 @@
-{
-    "first_name":"Lula",
-    "last_name":"Homenick",
-    "email":"Jeramy79@yahoo.com",
-    "phone_number":"340-727-0363",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

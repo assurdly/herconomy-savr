@@ -1,0 +1,12 @@
+{
+    "phone_number":"662-248-8863",
+    "user_role": "CEO",
+    "company_name":"Greenholt Inc",
+    "gender":"male",
+	"first_name":"Gina",               
+	"last_name": "Kub",                 
+	"email":"Nathanael.Runolfsson42@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
