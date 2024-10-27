@@ -1,0 +1,12 @@
+{
+    "phone_number":"938-955-8584",
+    "user_role": "CEO",
+    "company_name":"Renner - Gibson",
+    "gender":"male",
+	"first_name":"Cora",               
+	"last_name": "Crona",                 
+	"email":"Jonatan_Kunze@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

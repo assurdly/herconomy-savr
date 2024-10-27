@@ -1,0 +1,9 @@
+{
+    "first_name":"Patsy",
+    "last_name":"Conn",
+    "email":"Craig27@hotmail.com",
+    "phone_number":"815-854-0784",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
