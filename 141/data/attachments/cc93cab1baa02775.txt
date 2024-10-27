@@ -1,0 +1,12 @@
+{
+    "phone_number":"679-902-9025",
+    "user_role": "CEO",
+    "company_name":"Reinger, Streich and O'Hara",
+    "gender":"male",
+	"first_name":"Dorothy",               
+	"last_name": "Flatley",                 
+	"email":"Ollie.Stiedemann15@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

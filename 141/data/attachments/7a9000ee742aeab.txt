@@ -1,0 +1,9 @@
+{
+    "first_name":"Marlene",
+    "last_name":"Price",
+    "email":"Rogers.Legros46@hotmail.com",
+    "phone_number":"470-543-7028",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
