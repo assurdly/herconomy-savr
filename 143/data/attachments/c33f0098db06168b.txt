@@ -1,0 +1,9 @@
+{
+    "first_name":"bola",
+    "last_name":"John",
+    "email":"ajidagbarasheedat95@gmail.com",
+    "phone_number":"+2347014232365",
+    "employee_role":"COO",
+    "saving_amount": 5000,
+    "saving_frequency":"monthly"
+}

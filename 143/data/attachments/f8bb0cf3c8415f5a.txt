@@ -1,0 +1,12 @@
+{
+    "phone_number":"673-691-3747",
+    "user_role": "CEO",
+    "company_name":"Wyman, Frami and Parker",
+    "gender":"male",
+	"first_name":"Oscar",               
+	"last_name": "Williamson",                 
+	"email":"Arielle77@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

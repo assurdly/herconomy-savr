@@ -1,0 +1,9 @@
+{
+    "first_name":"Elliot",
+    "last_name":"Gutkowski",
+    "email":"Geovanni95@yahoo.com",
+    "phone_number":"410-634-7678",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
