@@ -1,0 +1,12 @@
+{
+    "phone_number":"416-787-2421",
+    "user_role": "CEO",
+    "company_name":"Rolfson, Shanahan and Nicolas",
+    "gender":"male",
+	"first_name":"Damon",               
+	"last_name": "Rippin",                 
+	"email":"Emery75@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

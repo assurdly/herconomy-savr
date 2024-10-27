@@ -1,9 +1,0 @@
-{
-    "first_name":"Rosemarie",
-    "last_name":"Gerhold",
-    "email":"Danika_Daugherty@hotmail.com",
-    "phone_number":"522-284-7457",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

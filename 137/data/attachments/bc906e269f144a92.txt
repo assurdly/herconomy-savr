@@ -1,0 +1,9 @@
+{
+    "first_name":"Evalyn",
+    "last_name":"Botsford",
+    "email":"Trystan41@hotmail.com",
+    "phone_number":"316-587-1873",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
