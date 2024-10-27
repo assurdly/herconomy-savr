@@ -1,0 +1,12 @@
+{
+    "phone_number":"349-438-3304",
+    "user_role": "CEO",
+    "company_name":"Casper, Pfeffer and Cummerata",
+    "gender":"male",
+	"first_name":"Thora",               
+	"last_name": "Volkman",                 
+	"email":"Samir_Bergstrom31@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

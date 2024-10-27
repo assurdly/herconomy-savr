@@ -1,0 +1,9 @@
+{
+    "first_name":"Merlin",
+    "last_name":"Kuhic",
+    "email":"Selina.Dietrich3@hotmail.com",
+    "phone_number":"630-633-6000",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

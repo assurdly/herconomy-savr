@@ -1,1 +1,0 @@
-{"id":196,"admin_email":"ajidagbarasheedat95@gmail.com","first_name":"Daphne","last_name":"Goldner","email":"Therese_Rippin47@yahoo.com","phone_number":"672-780-0295","saving_amount":"200.0","saving_frequency":"weekly","employee_role":[],"created_at":"2024-09-19T19:03:28.525839Z"}
