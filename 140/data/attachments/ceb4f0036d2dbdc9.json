@@ -1,0 +1,11 @@
+{
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Sun, 27 Oct 2024 16:57:57 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "145",
+    "Connection": "keep-alive",
+    "X-Frame-Options": "DENY",
+    "Vary": "Cookie, Origin",
+    "Strict-Transport-Security": "max-age=60; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block"
+}

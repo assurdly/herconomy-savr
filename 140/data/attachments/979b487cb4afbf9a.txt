@@ -1,0 +1,12 @@
+{
+    "phone_number":"504-811-8451",
+    "user_role": "CEO",
+    "company_name":"Keebler Inc",
+    "gender":"male",
+	"first_name":"Chandler",               
+	"last_name": "Jacobson",                 
+	"email":"Giovanna.Von51@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

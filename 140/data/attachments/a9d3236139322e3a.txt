@@ -1,0 +1,9 @@
+{
+    "first_name":"Rosendo",
+    "last_name":"Jast",
+    "email":"Novella_Carter@yahoo.com",
+    "phone_number":"934-574-2890",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
