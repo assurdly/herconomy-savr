@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "14d0efb6-6b84-4da5-9ea5-d37fa9e0810f",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "43",
+    "Cookie": "messages=\"6a13ef96e453fdc9406197c18cf11f8d40942fec$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as therese.purdy18.\\\"]]\"; csrftoken=ExfFsv2zClyFaZB1bnqG0mnQQ39agp487JotZpyFTFswlrIpqL4GvAJjJnTY6hR5; sessionid=m4kt35pyueambiu2dsfhkvb36ovzovyc"
+}

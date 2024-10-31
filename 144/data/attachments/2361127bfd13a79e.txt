@@ -1,0 +1,9 @@
+{
+    "first_name":"Tavares",
+    "last_name":"Dicki",
+    "email":"Lonie.Will@hotmail.com",
+    "phone_number":"933-472-3815",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

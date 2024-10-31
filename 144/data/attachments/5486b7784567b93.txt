@@ -1,0 +1,12 @@
+{
+    "phone_number":"369-269-2236",
+    "user_role": "CEO",
+    "company_name":"Littel - Swaniawski",
+    "gender":"male",
+	"first_name":"Isabel",               
+	"last_name": "Hickle",                 
+	"email":"Therese.Purdy18@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
