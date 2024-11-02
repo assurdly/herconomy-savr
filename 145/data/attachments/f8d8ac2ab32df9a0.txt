@@ -1,0 +1,9 @@
+{
+    "first_name":"Jairo",
+    "last_name":"Pollich",
+    "email":"Tate12@gmail.com",
+    "phone_number":"351-213-5441",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

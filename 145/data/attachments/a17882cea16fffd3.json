@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "6754b617-f582-45b9-95d5-43f6879c6fd9",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "208",
+    "Cookie": "messages=\"252342dbf0eca39a75e7f0b0c67ca872a9160016$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as mona_corwin.\\\"]]\"; csrftoken=HOX7dntlei5UFgEuSBQR6YLY9BrWxQb76aE191y60BeBVqztpcTzqiQEQOCJoeCA; sessionid=gxp1iv6934t48q13w05avp5q3riigdne"
+}

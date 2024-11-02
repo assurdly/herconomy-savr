@@ -1,0 +1,12 @@
+{
+    "phone_number":"271-806-9522",
+    "user_role": "CEO",
+    "company_name":"Bins LLC",
+    "gender":"male",
+	"first_name":"Genevieve",               
+	"last_name": "Bruen",                 
+	"email":"Mona_Corwin@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
