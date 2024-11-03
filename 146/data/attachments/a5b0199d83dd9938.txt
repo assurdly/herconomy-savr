@@ -1,0 +1,12 @@
+{
+    "phone_number":"924-811-4465",
+    "user_role": "CEO",
+    "company_name":"Gleichner, Franecki and Kreiger",
+    "gender":"male",
+	"first_name":"Yasmine",               
+	"last_name": "Labadie",                 
+	"email":"Freddy35@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
