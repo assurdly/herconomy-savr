@@ -1,9 +1,0 @@
-{
-    "first_name":"Fausto",
-    "last_name":"Zieme",
-    "email":"Olga_Graham@gmail.com",
-    "phone_number":"652-602-5410",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

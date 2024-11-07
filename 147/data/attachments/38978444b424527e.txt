@@ -1,0 +1,9 @@
+{
+    "first_name":"Viola",
+    "last_name":"Quitzon",
+    "email":"Ernie.Jaskolski87@yahoo.com",
+    "phone_number":"360-357-4549",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

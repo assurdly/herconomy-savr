@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "34aee80e-24af-4a04-8215-d5fd950e185b",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "43",
+    "Cookie": "messages=\"4f43a145c26c9d704ebcfa4ec7d5a0351c9418cb$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as ransom.schamberger.\\\"]]\"; csrftoken=2eaFqV3rLCaVdTWqVYnCmLd3IiA96GuRCnQFvx0pvzlpQFVz2or3cXFLZx3HQu2V; sessionid=9vdg7gqxyfkinkhth6e690mtzuzko2pg"
+}

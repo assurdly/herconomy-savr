@@ -1,0 +1,12 @@
+{
+    "phone_number":"242-806-3533",
+    "user_role": "CEO",
+    "company_name":"Hegmann and Sons",
+    "gender":"male",
+	"first_name":"Dane",               
+	"last_name": "Rippin",                 
+	"email":"Ransom.Schamberger@hotmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

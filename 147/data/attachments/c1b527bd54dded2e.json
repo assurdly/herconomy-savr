@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiOGM1OTk2ZjYtNDg3ZC00Y2JhLWExMWMtODk2MDk3MzJhYTNiIiwidXNlcm5hbWUiOiJhamlkYWdiYXJhc2hlZWRhdDk1IiwiZXhwIjoxNzMxMDg4ODg5LCJlbWFpbCI6ImFqaWRhZ2JhcmFzaGVlZGF0OTVAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MzEwMDI0ODl9.ITR1yU8BJ_nb5j4qyhTY_3mruJj-iXu82rwCJrkmxmw",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "b4aa0cb6-fced-424c-9164-b3a638e4389b",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "136",
+    "Cookie": "messages=\"4f43a145c26c9d704ebcfa4ec7d5a0351c9418cb$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as ransom.schamberger.\\\"]]\"; csrftoken=2eaFqV3rLCaVdTWqVYnCmLd3IiA96GuRCnQFvx0pvzlpQFVz2or3cXFLZx3HQu2V; sessionid=9vdg7gqxyfkinkhth6e690mtzuzko2pg"
+}
