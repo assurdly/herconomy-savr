@@ -1,0 +1,13 @@
+{
+    "Content-Type": "application/json",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiOGM1OTk2ZjYtNDg3ZC00Y2JhLWExMWMtODk2MDk3MzJhYTNiIiwidXNlcm5hbWUiOiJhamlkYWdiYXJhc2hlZWRhdDk1IiwiZXhwIjoxNzMxMTc1NzEwLCJlbWFpbCI6ImFqaWRhZ2JhcmFzaGVlZGF0OTVAZ21haWwuY29tIiwib3JpZ19pYXQiOjE3MzEwODkzMTB9.h_0pp6w-UFXvFvzBXCO4sP2BZneSx4USIZ8ypCxFXPU",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "e2fea455-34c6-4031-9d7b-0b8b8477dcbf",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "70",
+    "Cookie": "messages=\"d158c65dacfd8d5e0b6976151c4eca4b5b584d90$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as ignatius.emmerich.\\\"]]\"; csrftoken=yAtkGtAIvUL2CHFAUn7b3pLFhckx7n5JoQEz51fyXBDGu8Wro3u4ofODE2Gb2Ihq; sessionid=a20eqlxsv03mn688hcvwanc1vk8zfa80"
+}

@@ -1,9 +1,0 @@
-{
-    "first_name":"Berry",
-    "last_name":"Ward",
-    "email":"Buford.Lowe38@hotmail.com",
-    "phone_number":"616-444-3781",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

@@ -1,0 +1,12 @@
+{
+    "phone_number":"800-614-9496",
+    "user_role": "CEO",
+    "company_name":"Ward - Treutel",
+    "gender":"male",
+	"first_name":"Craig",               
+	"last_name": "Beier",                 
+	"email":"Ignatius.Emmerich@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

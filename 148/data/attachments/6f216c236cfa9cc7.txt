@@ -1,0 +1,9 @@
+{
+    "first_name":"Alysa",
+    "last_name":"Watsica",
+    "email":"Javon.Kreiger37@yahoo.com",
+    "phone_number":"303-475-7867",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

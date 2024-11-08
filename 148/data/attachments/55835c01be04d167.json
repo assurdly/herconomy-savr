@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "1651a986-1b4b-4b00-8aab-591542e8355b",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "209",
+    "Cookie": "messages=\"d158c65dacfd8d5e0b6976151c4eca4b5b584d90$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as ignatius.emmerich.\\\"]]\"; csrftoken=sp1lchjA5Xgt7RwxmjfOj1M4D3W2ENhgOv3AATLE4bHkN2wGRdEsYGjMuw3VaXJv; sessionid=uh0jqso6vi74tsxv4y3t31yhnljv6s3s"
+}
