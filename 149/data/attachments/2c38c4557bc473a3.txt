@@ -1,0 +1,12 @@
+{
+    "phone_number":"267-678-0153",
+    "user_role": "CEO",
+    "company_name":"Gorczany - Leuschke",
+    "gender":"male",
+	"first_name":"Lexi",               
+	"last_name": "Jakubowski",                 
+	"email":"Reginald72@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

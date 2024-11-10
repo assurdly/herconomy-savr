@@ -1,0 +1,9 @@
+{
+    "first_name":"Braxton",
+    "last_name":"Runolfsdottir",
+    "email":"Ewell.Hoeger@gmail.com",
+    "phone_number":"559-542-7311",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
