@@ -1,0 +1,9 @@
+{
+    "first_name":"Colby",
+    "last_name":"Jakubowski",
+    "email":"Nathan89@yahoo.com",
+    "phone_number":"704-775-4568",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

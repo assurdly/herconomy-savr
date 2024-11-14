@@ -1,0 +1,12 @@
+{
+    "phone_number":"785-964-9064",
+    "user_role": "CEO",
+    "company_name":"Bayer, Kessler and Blick",
+    "gender":"male",
+	"first_name":"Ezekiel",               
+	"last_name": "Zieme",                 
+	"email":"Ellsworth55@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
