@@ -1,0 +1,13 @@
+{
+    "Authorization": "JWT ",
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "b21c1faa-fac1-411e-bb94-b576e17f3a1e",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "208",
+    "Cookie": "messages=\"98c98172eaffb21e2ee0e382e07afd740f537ba2$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as nash11.\\\"]]\"; csrftoken=XzUFvmZF07snRRheA4MRgmQrHGwH0tUDpYoeSzH5JWJdUxoQdKNT0p18sq8Sciy2; sessionid=ncev46qfnxv7u1blpl6n6t75kh9xjh4y"
+}

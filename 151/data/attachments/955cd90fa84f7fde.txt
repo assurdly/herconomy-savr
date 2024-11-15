@@ -1,0 +1,9 @@
+{
+    "first_name":"Karlie",
+    "last_name":"Reichert",
+    "email":"Icie84@yahoo.com",
+    "phone_number":"894-612-7419",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

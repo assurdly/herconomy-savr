@@ -1,0 +1,12 @@
+{
+    "phone_number":"902-897-0622",
+    "user_role": "CEO",
+    "company_name":"Ullrich Inc",
+    "gender":"male",
+	"first_name":"Jamaal",               
+	"last_name": "Towne",                 
+	"email":"Nash11@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}
