@@ -1,0 +1,9 @@
+{
+    "first_name":"Tyrel",
+    "last_name":"Harber",
+    "email":"Jeffry_OKon36@yahoo.com",
+    "phone_number":"916-582-7940",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}

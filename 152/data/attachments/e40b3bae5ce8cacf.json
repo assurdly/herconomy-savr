@@ -1,0 +1,12 @@
+{
+    "Content-Type": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Accept": "*/*",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "73792389-1ab9-4212-b9d1-eb9a08533be2",
+    "Host": "staging.herconomy.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "80",
+    "Cookie": "messages=\"0d2019949774c0b4bde84e61075f0ff104d73c08$[[\\\"__json_message\\\"\\0540\\05425\\054\\\"Successfully signed in as leta48.\\\"]]\"; csrftoken=wHjD2KhYZBtJNcIUxHZqXeHCMbjBcSiQGAvAYAexcFuDKRd5vLM7Xt4gA2uUFSsZ; sessionid=4l6vjdm9o39idm15qlrxieqiukvscqx2"
+}

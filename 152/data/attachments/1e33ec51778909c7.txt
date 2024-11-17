@@ -1,0 +1,12 @@
+{
+    "phone_number":"901-551-6881",
+    "user_role": "CEO",
+    "company_name":"Bruen Inc",
+    "gender":"male",
+	"first_name":"Winston",               
+	"last_name": "Boyle",                 
+	"email":"Leta48@yahoo.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

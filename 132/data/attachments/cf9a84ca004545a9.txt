@@ -1,9 +1,0 @@
-{
-    "first_name":"Casey",
-    "last_name":"Harber",
-    "email":"Derick83@yahoo.com",
-    "phone_number":"986-844-2322",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}
