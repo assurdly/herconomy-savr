@@ -1,0 +1,12 @@
+{
+    "phone_number":"611-551-8038",
+    "user_role": "CEO",
+    "company_name":"Skiles, Simonis and Wolff",
+    "gender":"male",
+	"first_name":"Hermann",               
+	"last_name": "Ondricka",                 
+	"email":"Hilma75@gmail.com",    
+	"password1":"More@4me",            
+	"password2":"More@4me"             
+	
+}

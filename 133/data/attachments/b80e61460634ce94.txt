@@ -1,9 +1,0 @@
-{
-    "first_name":"Lexi",
-    "last_name":"Feil",
-    "email":"Clay_Ryan@hotmail.com",
-    "phone_number":"694-790-5085",
-    "employee_role":"Frontend",
-    "saving_amount": 200,
-    "saving_frequency":"weekly"
-}

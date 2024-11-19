@@ -1,0 +1,9 @@
+{
+    "first_name":"Rocio",
+    "last_name":"Ziemann",
+    "email":"Miracle.Dickinson52@hotmail.com",
+    "phone_number":"989-207-8926",
+    "employee_role":"Frontend",
+    "saving_amount": 200,
+    "saving_frequency":"weekly"
+}
